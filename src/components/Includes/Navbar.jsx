@@ -16,7 +16,7 @@ function Navbar() {
               <li><Link to="/isa">ISA</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
               <li><Link to="/hire-form-us">Hire Form Us</Link></li>
-              <li><Link to="/employee-registr">Employee Register</Link></li>
+              <li><Link to="/register">Employee Register</Link></li>
 
             </ul>
           </nav>

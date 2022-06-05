@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="main-content">
       <section
-        className="divider parallax layer-overlay overlay-dark-5"
+        className="divider parallax layer-overlay back"
         data-parallax-ratio="0.0"
       >
         <div className="container">
@@ -176,8 +176,8 @@ function Home() {
                 <p className="mb-30">
                   A Choice that makes a big difference in your career. Grras
                   Solutions Pvt. Ltd is committed to helping its students to
-                  reach their goals and their training experiences, by
-                  providing the innovative surroundings and faculties.
+                  reach their goals and their training experiences, by providing
+                  the innovative surroundings and faculties.
                 </p>
                 <div className="row">
                   <div className="col-xs-12 col-sm-6 col-md-6">
@@ -305,8 +305,8 @@ function Home() {
                         <i className="fa fa-check-square-o mr-10 text-black-light" />
                         {' '}
                         Become and expert in futuristic technologies like Linux,
-                        Ansible and Automation, AWS, AZURE, DevOps, Docker and Kubernetes, Jenkins,
-                        GIT HUB, terraform, CI-CD pipleine.
+                        Ansible and Automation, AWS, AZURE, DevOps, Docker and
+                        Kubernetes, Jenkins, GIT HUB, terraform, CI-CD pipleine.
                       </a>
                     </li>
                     <li>
@@ -359,9 +359,9 @@ function Home() {
                   Pay after placement and ISA agreement.
                 </h3>
                 <p className="mb-30">
-                  Pay after you get placed. Grras solutions pvt. ltd.
-                  provides guidence for Job placement.
-                  We will be there with you at everys step of your hiurney.
+                  Pay after you get placed. Grras solutions pvt. ltd. provides
+                  guidence for Job placement. We will be there with you at
+                  everys step of your hiurney.
                 </p>
                 <div className="row">
                   <div className="col-xs-12 col-sm-6 col-md-6">
@@ -449,7 +449,8 @@ function Home() {
                   {' '}
                   <span className="text-theme-colored">get in touch</span>
                   {' '}
-                  with us
+                  with
+                  us
                 </h3>
                 <p>
                   B4, Second Floor, Bhaskar Flyover, opposite Dainik Bhaskar,

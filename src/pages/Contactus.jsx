@@ -11,8 +11,13 @@ function Contactus() {
               <div className="border-1px p-30 mb-0">
                 <h3 className="text-theme-colored mt-0 pt-5">FOR INTERNSHIP</h3>
                 <hr />
-                <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
-                <form id="job_apply_form" name="job_apply_form" action="http://html.kodesolution.live/s/counseling/v3.0/demo/includes/job.php" method="post" encType="multipart/form-data">
+                <form
+                  id="job_apply_form"
+                  name="job_apply_form"
+                  action="http://html.kodesolution.live/s/counseling/v3.0/demo/includes/job.php"
+                  method="post"
+                  encType="multipart/form-data"
+                >
                   <div className="row">
                     <div className="col-sm-12">
                       <div className="form-group">
@@ -20,10 +25,15 @@ function Contactus() {
                           Name
                           <small>*</small>
                         </label>
-                        <input name="form_name" type="text" placeholder="Enter Name" required="" className="form-control" />
+                        <input
+                          name="form_name"
+                          type="text"
+                          placeholder="Enter Name"
+                          required=""
+                          className="form-control"
+                        />
                       </div>
                     </div>
-
                   </div>
 
                   <div className="row">
@@ -33,7 +43,12 @@ function Contactus() {
                           Email
                           <small>*</small>
                         </label>
-                        <input name="form_email" className="form-control required email" type="email" placeholder="Enter Email" />
+                        <input
+                          name="form_email"
+                          className="form-control required email"
+                          type="email"
+                          placeholder="Enter Email"
+                        />
                       </div>
                     </div>
                   </div>
@@ -45,7 +60,12 @@ function Contactus() {
                           Mobile
                           <small>*</small>
                         </label>
-                        <input name="form_mobile" className="form-control required email" type="number" placeholder="Enter Mobile Number" />
+                        <input
+                          name="form_mobile"
+                          className="form-control required email"
+                          type="number"
+                          placeholder="Enter Mobile Number"
+                        />
                       </div>
                     </div>
                   </div>
@@ -56,7 +76,10 @@ function Contactus() {
                           Choose The Duration Of Your Internship
                           <small>*</small>
                         </label>
-                        <select name="form_sex" className="form-control required">
+                        <select
+                          name="form_sex"
+                          className="form-control required"
+                        >
                           <option value="30">30 Days</option>
                           <option value="45">45 Days</option>
                           <option value="60">2 Month</option>
@@ -64,10 +87,8 @@ function Contactus() {
                           <option value="120">4 Month</option>
                           <option value="180">6 Month</option>
                         </select>
-
                       </div>
                     </div>
-
                   </div>
 
                   <div className="form-group">
@@ -75,22 +96,45 @@ function Contactus() {
                       Message
                       <small>*</small>
                     </label>
-                    <textarea name="form_message" className="form-control required" rows="5" placeholder="Your cover letter/message sent to the employer" />
+                    <textarea
+                      name="form_message"
+                      className="form-control required"
+                      rows="5"
+                      placeholder="Your cover letter/message sent to the employer"
+                    />
                   </div>
 
                   <div className="form-group">
-                    <input name="form_botcheck" className="form-control" type="hidden" value="" />
-                    <button type="submit" className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10" data-loading-text="Please wait...">Apply Now</button>
+                    <input
+                      name="form_botcheck"
+                      className="form-control"
+                      type="hidden"
+                      value=""
+                    />
+                    <button
+                      type="submit"
+                      className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
+                      data-loading-text="Please wait..."
+                    >
+                      Apply Now
+                    </button>
                   </div>
                 </form>
               </div>
             </div>
             <div className="col-md-4">
               <div className="border-1px p-25">
-                <h4 className="text-theme-colored text-uppercase m-0">FOR CLASSROOM TRAINING</h4>
+                <h4 className="text-theme-colored text-uppercase m-0">
+                  FOR CLASSROOM TRAINING
+                </h4>
                 <div className="line-bottom mb-30" />
-                <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
-                <form id="job_apply_form" name="job_apply_form" action="http://html.kodesolution.live/s/counseling/v3.0/demo/includes/job.php" method="post" encType="multipart/form-data">
+                <form
+                  id="job_apply_form"
+                  name="job_apply_form"
+                  action="http://html.kodesolution.live/s/counseling/v3.0/demo/includes/job.php"
+                  method="post"
+                  encType="multipart/form-data"
+                >
                   <div className="row">
                     <div className="col-sm-12">
                       <div className="form-group">
@@ -98,10 +142,15 @@ function Contactus() {
                           Name
                           <small>*</small>
                         </label>
-                        <input name="form_name" type="text" placeholder="Enter Name" required="" className="form-control" />
+                        <input
+                          name="form_name"
+                          type="text"
+                          placeholder="Enter Name"
+                          required=""
+                          className="form-control"
+                        />
                       </div>
                     </div>
-
                   </div>
 
                   <div className="row">
@@ -111,7 +160,12 @@ function Contactus() {
                           Email
                           <small>*</small>
                         </label>
-                        <input name="form_email" className="form-control required email" type="email" placeholder="Enter Email" />
+                        <input
+                          name="form_email"
+                          className="form-control required email"
+                          type="email"
+                          placeholder="Enter Email"
+                        />
                       </div>
                     </div>
                   </div>
@@ -123,7 +177,12 @@ function Contactus() {
                           Mobile
                           <small>*</small>
                         </label>
-                        <input name="form_mobile" className="form-control required email" type="number" placeholder="Enter Mobile Number" />
+                        <input
+                          name="form_mobile"
+                          className="form-control required email"
+                          type="number"
+                          placeholder="Enter Mobile Number"
+                        />
                       </div>
                     </div>
                   </div>
@@ -133,23 +192,45 @@ function Contactus() {
                       Message
                       <small>*</small>
                     </label>
-                    <textarea name="form_message" className="form-control required" rows="5" placeholder="Your cover letter/message sent to the employer" />
+                    <textarea
+                      name="form_message"
+                      className="form-control required"
+                      rows="5"
+                      placeholder="Your cover letter/message sent to the employer"
+                    />
                   </div>
 
                   <div className="form-group">
-                    <input name="form_botcheck" className="form-control" type="hidden" value="" />
-                    <button type="submit" className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10" data-loading-text="Please wait...">Apply Now</button>
+                    <input
+                      name="form_botcheck"
+                      className="form-control"
+                      type="hidden"
+                      value=""
+                    />
+                    <button
+                      type="submit"
+                      className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
+                      data-loading-text="Please wait..."
+                    >
+                      Apply Now
+                    </button>
                   </div>
                 </form>
               </div>
-
             </div>
             <div className="col-md-4">
               <div className="border-1px p-25">
-                <h4 className="text-theme-colored text-uppercase m-0">FOR CLASSROOM TRAINING</h4>
+                <h4 className="text-theme-colored text-uppercase m-0">
+                  GET A FREE DEMO
+                </h4>
                 <div className="line-bottom mb-30" />
-                <p>Lorem ipsum dolor sit amet, consectetur elit.</p>
-                <form id="job_apply_form" name="job_apply_form" action="http://html.kodesolution.live/s/counseling/v3.0/demo/includes/job.php" method="post" encType="multipart/form-data">
+                <form
+                  id="job_apply_form"
+                  name="job_apply_form"
+                  action="http://html.kodesolution.live/s/counseling/v3.0/demo/includes/job.php"
+                  method="post"
+                  encType="multipart/form-data"
+                >
                   <div className="row">
                     <div className="col-sm-12">
                       <div className="form-group">
@@ -157,10 +238,15 @@ function Contactus() {
                           Name
                           <small>*</small>
                         </label>
-                        <input name="form_name" type="text" placeholder="Enter Name" required="" className="form-control" />
+                        <input
+                          name="form_name"
+                          type="text"
+                          placeholder="Enter Name"
+                          required=""
+                          className="form-control"
+                        />
                       </div>
                     </div>
-
                   </div>
 
                   <div className="row">
@@ -170,7 +256,12 @@ function Contactus() {
                           Email
                           <small>*</small>
                         </label>
-                        <input name="form_email" className="form-control required email" type="email" placeholder="Enter Email" />
+                        <input
+                          name="form_email"
+                          className="form-control required email"
+                          type="email"
+                          placeholder="Enter Email"
+                        />
                       </div>
                     </div>
                   </div>
@@ -182,7 +273,12 @@ function Contactus() {
                           Mobile
                           <small>*</small>
                         </label>
-                        <input name="form_mobile" className="form-control required email" type="number" placeholder="Enter Mobile Number" />
+                        <input
+                          name="form_mobile"
+                          className="form-control required email"
+                          type="number"
+                          placeholder="Enter Mobile Number"
+                        />
                       </div>
                     </div>
                   </div>
@@ -194,7 +290,12 @@ function Contactus() {
                           Date
                           <small>*</small>
                         </label>
-                        <input name="form_mobile" className="form-control required email" type="date" placeholder="Enter Mobile Date" />
+                        <input
+                          name="form_mobile"
+                          className="form-control required email"
+                          type="date"
+                          placeholder="Enter Mobile Date"
+                        />
                       </div>
                     </div>
                   </div>
@@ -203,16 +304,31 @@ function Contactus() {
                       Message
                       <small>*</small>
                     </label>
-                    <textarea name="form_message" className="form-control required" rows="5" placeholder="Your cover letter/message sent to the employer" />
+                    <textarea
+                      name="form_message"
+                      className="form-control required"
+                      rows="5"
+                      placeholder="Your cover letter/message sent to the employer"
+                    />
                   </div>
 
                   <div className="form-group">
-                    <input name="form_botcheck" className="form-control" type="hidden" value="" />
-                    <button type="submit" className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10" data-loading-text="Please wait...">Apply Now</button>
+                    <input
+                      name="form_botcheck"
+                      className="form-control"
+                      type="hidden"
+                      value=""
+                    />
+                    <button
+                      type="submit"
+                      className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
+                      data-loading-text="Please wait..."
+                    >
+                      Apply Now
+                    </button>
                   </div>
                 </form>
               </div>
-
             </div>
           </div>
         </div>
