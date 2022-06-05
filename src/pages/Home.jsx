@@ -1,12 +1,11 @@
+/* eslint-disable react/button-has-type */
 import React from 'react';
-import logou from '../components/image/bgDowwn.jpg';
 
 function Home() {
   return (
     <div className="main-content">
       <section
         className="divider parallax layer-overlay overlay-dark-5"
-        data-bg-img={logou}
         data-parallax-ratio="0.0"
       >
         <div className="container">
@@ -210,7 +209,7 @@ function Home() {
                         AFFORDABLE FEES
                       </h4>
                       <p className="text-gray mb-5">
-                        We are not cheap , but we provide quality training with
+                        We arent cheap , but we provide quality training with
                         justified fees structures.
                       </p>
                     </div>
@@ -573,7 +572,7 @@ function Home() {
                     Send your message
                   </button>
                   <button
-                    type="submit"
+                    type="reset"
                     className="btn btn-flat btn-theme-colored text-uppercase mt-10 mb-sm-30 border-left-theme-color-2-4px"
                   >
                     Reset
