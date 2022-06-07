@@ -1,7 +1,11 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
+import postApi from '../../service_methods/post_method';
 
 function Form() {
+  const payload = {};
+  const url = '';
+  postApi(url, payload);
   return (
     <section className="bg-lighter">
       <div className="container">
@@ -100,6 +104,7 @@ function Form() {
                       name="form_message"
                       className="form-control required"
                       rows="5"
+                      // onChange={}
                       placeholder="Your cover letter/message sent to the employer"
                     />
                   </div>
@@ -115,6 +120,7 @@ function Form() {
                       type="submit"
                       className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
                       data-loading-text="Please wait..."
+                      // onClick
                     >
                       Apply Now
                     </button>
