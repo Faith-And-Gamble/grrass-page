@@ -34,7 +34,6 @@ function Form() {
                 <form
                   id="job_apply_form"
                   name="job_apply_form"
-                  action="http://html.kodesolution.live/s/counseling/v3.0/demo/includes/job.php"
                   method="post"
                   encType="multipart/form-data"
                 >
