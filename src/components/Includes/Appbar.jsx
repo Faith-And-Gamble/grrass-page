@@ -47,7 +47,6 @@ function Appbar() {
               </ul>
             </div>
           </div>
-
         </div>
       </div>
     </div>
