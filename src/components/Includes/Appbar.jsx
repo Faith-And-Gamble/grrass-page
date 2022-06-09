@@ -39,7 +39,7 @@ function Appbar() {
           <div className="col-md-4 pr-0">
             <div className="widget pull-right no-border m-0">
               <ul className="styled-icons icon-dark icon-flat icon-sm sm-text-center mt-sm-15">
-                <li><a href="/"><i className="fa fa-facebook text-white" /></a></li>
+                <li><a href="https://www.facebook.com/jobplacementcoursegrras/" target="_blank" rel="noreferrer"><i className="fa fa-facebook text-white" /></a></li>
                 <li><a href="/"><i className="fa fa-twitter text-white" /></a></li>
                 <li><a href="/"><i className="fa fa-google-plus text-white" /></a></li>
                 <li><a href="/"><i className="fa fa-instagram text-white" /></a></li>
