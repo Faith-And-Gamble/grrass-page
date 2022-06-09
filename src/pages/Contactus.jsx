@@ -1,7 +1,28 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React from 'react';
+import React, { useState } from 'react';
+import postApi from '../service_methods/post_method';
 
 function Contactus() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    mobile: '',
+    duration_days: '',
+    message: '',
+  });
+  function handleChange(e) {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+    console.log(setFormData);
+  }
+  const payload = {};
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const url = 'http://localhost:8080/api/contact_us';
+    postApi(url, payload);
+  };
   return (
     <section className="bg-lighter">
       <div className="container">
@@ -26,10 +47,12 @@ function Contactus() {
                           <small>*</small>
                         </label>
                         <input
-                          name="form_name"
+                          name="name"
                           type="text"
                           placeholder="Enter Name"
                           required=""
+                          onChange={handleChange}
+                          value={formData.name}
                           className="form-control"
                         />
                       </div>
@@ -44,9 +67,11 @@ function Contactus() {
                           <small>*</small>
                         </label>
                         <input
-                          name="form_email"
+                          name="email"
                           className="form-control required email"
                           type="email"
+                          onChange={handleChange}
+                          value={formData.email}
                           placeholder="Enter Email"
                         />
                       </div>
@@ -61,9 +86,11 @@ function Contactus() {
                           <small>*</small>
                         </label>
                         <input
-                          name="form_mobile"
+                          name="mobile"
                           className="form-control required email"
-                          type="number"
+                          type="mobile"
+                          onChange={handleChange}
+                          value={formData.mobile}
                           placeholder="Enter Mobile Number"
                         />
                       </div>
@@ -77,8 +104,10 @@ function Contactus() {
                           <small>*</small>
                         </label>
                         <select
-                          name="form_sex"
+                          name="duration_days"
                           className="form-control required"
+                          onChange={handleChange}
+                          value={formData.duration_days}
                         >
                           <option value="30">30 Days</option>
                           <option value="45">45 Days</option>
@@ -97,8 +126,10 @@ function Contactus() {
                       <small>*</small>
                     </label>
                     <textarea
-                      name="form_message"
+                      name="message"
                       className="form-control required"
+                      onChange={handleChange}
+                      value={formData.message}
                       rows="5"
                       placeholder="Your cover letter/message sent to the employer"
                     />
@@ -114,7 +145,7 @@ function Contactus() {
                     <button
                       type="submit"
                       className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
-                      data-loading-text="Please wait..."
+                      onClick={handleSubmit}
                     >
                       Apply Now
                     </button>
@@ -143,11 +174,13 @@ function Contactus() {
                           <small>*</small>
                         </label>
                         <input
-                          name="form_name"
+                          name="name"
                           type="text"
                           placeholder="Enter Name"
                           required=""
                           className="form-control"
+                          onChange={handleChange}
+                          value={formData.name}
                         />
                       </div>
                     </div>
@@ -165,6 +198,8 @@ function Contactus() {
                           className="form-control required email"
                           type="email"
                           placeholder="Enter Email"
+                          onChange={handleChange}
+                          value={formData.email}
                         />
                       </div>
                     </div>
@@ -178,10 +213,12 @@ function Contactus() {
                           <small>*</small>
                         </label>
                         <input
-                          name="form_mobile"
+                          name="mobile"
                           className="form-control required email"
                           type="number"
                           placeholder="Enter Mobile Number"
+                          onChange={handleChange}
+                          value={formData.mobile}
                         />
                       </div>
                     </div>
@@ -193,9 +230,11 @@ function Contactus() {
                       <small>*</small>
                     </label>
                     <textarea
-                      name="form_message"
+                      name="message"
                       className="form-control required"
                       rows="5"
+                      onChange={handleChange}
+                      value={formData.message}
                       placeholder="Your cover letter/message sent to the employer"
                     />
                   </div>
@@ -211,6 +250,7 @@ function Contactus() {
                       type="submit"
                       className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
                       data-loading-text="Please wait..."
+                      onClick={handleSubmit}
                     >
                       Apply Now
                     </button>
@@ -239,10 +279,12 @@ function Contactus() {
                           <small>*</small>
                         </label>
                         <input
-                          name="form_name"
+                          name="name"
                           type="text"
                           placeholder="Enter Name"
                           required=""
+                          onChange={handleChange}
+                          value={formData.name}
                           className="form-control"
                         />
                       </div>
@@ -260,6 +302,8 @@ function Contactus() {
                           name="form_email"
                           className="form-control required email"
                           type="email"
+                          onChange={handleChange}
+                          value={formData.email}
                           placeholder="Enter Email"
                         />
                       </div>
@@ -274,9 +318,11 @@ function Contactus() {
                           <small>*</small>
                         </label>
                         <input
-                          name="form_mobile"
+                          name="mobile"
                           className="form-control required email"
                           type="number"
+                          onChange={handleChange}
+                          value={formData.mobile}
                           placeholder="Enter Mobile Number"
                         />
                       </div>
@@ -291,10 +337,12 @@ function Contactus() {
                           <small>*</small>
                         </label>
                         <input
-                          name="form_mobile"
+                          name="trialdate"
                           className="form-control required email"
                           type="date"
-                          placeholder="Enter Mobile Date"
+                          onChange={handleChange}
+                          value={formData.trialdate}
+                          placeholder="Enter  Date"
                         />
                       </div>
                     </div>
@@ -305,9 +353,11 @@ function Contactus() {
                       <small>*</small>
                     </label>
                     <textarea
-                      name="form_message"
+                      name="message"
                       className="form-control required"
                       rows="5"
+                      onChange={handleChange}
+                      value={formData.message}
                       placeholder="Your cover letter/message sent to the employer"
                     />
                   </div>
@@ -323,6 +373,7 @@ function Contactus() {
                       type="submit"
                       className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
                       data-loading-text="Please wait..."
+                      onClick={handleSubmit}
                     >
                       Apply Now
                     </button>
