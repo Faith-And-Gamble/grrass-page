@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
+import Applogo from '../image/cut.ico';
 
 function Footer() {
   return (
@@ -12,9 +13,7 @@ function Footer() {
               <div className="widget dark">
                 {' '}
                 <img
-                  src="assets/images/imageslogo.png"
-                  width="130px"
-                  max-height="93px"
+                  src={Applogo}
                   alt=""
                 />
                 <p className="font-12 mt-20 mb-10">

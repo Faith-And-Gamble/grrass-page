@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
+import Applogo from '../image/cut.ico';
 
 function Navbar() {
   return (
@@ -8,15 +9,17 @@ function Navbar() {
         <div className="container">
           <nav id="menuzord-right" className="menuzord default">
             <a className="mt-15 pull-left flip xs-pull-center " href="/">
-              <img src="assets/images/imageslogo.png" width="130px" max-height="93px" alt="" />
+              <img src={Applogo} alt="" />
             </a>
             <ul className="menuzord-menu pull-right onepage-nav">
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/services">Pay After Placement</Link></li>
-              <li><Link to="/isa">ISA</Link></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/services">Physiotherapist</Link></li>
+              <li><Link to="/diet">Diet Plans</Link></li>
+              <li><Link to="/contact">Book Appointment</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
-              <li><Link to="/hire-form-us">Hire Form Us</Link></li>
-              <li><Link to="/register">Employee Register</Link></li>
+              <li><Link to="/signup">Signup</Link></li>
+              <li><Link to="/login">Login</Link></li>
 
             </ul>
           </nav>
