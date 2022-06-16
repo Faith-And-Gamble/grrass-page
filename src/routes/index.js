@@ -4,14 +4,20 @@ import NoPage from '../pages/NoPage';
 import Home from '../pages/Home';
 import Contactus from '../pages/Contactus';
 import Form from '../components/Includes/SingleForm';
+import Placement from '../pages/Placemnet';
+import ISA from '../pages/ISA';
+import Aboutus from '../pages/Aboutus (1)';
 
 function Routing() {
   return (
 
     <Routes>
       <Route exact path="/" element={<Home />} />
+      <Route path="/placement" element={<Placement />} />
       <Route exact path="/contact" element={<Contactus />} />
       <Route path="*" element={<NoPage />} />
+      <Route path="/isa" element={<ISA />} />
+      <Route path="/about" element={<Aboutus />} />
       <Route path="/register" element={<Form />} />
 
     </Routes>

@@ -15,7 +15,6 @@ function Contactus() {
       ...formData,
       [e.target.name]: e.target.value,
     });
-    console.log(setFormData);
   }
   const payload = {};
   const handleSubmit = (event) => {
