@@ -12,7 +12,7 @@ function Navbar() {
             </a>
             <ul className="menuzord-menu pull-right onepage-nav">
               <li><Link to="/about">About</Link></li>
-              <li><Link to="/services">Pay After Placement</Link></li>
+              <li><Link to="/placement">Pay After Placement</Link></li>
               <li><Link to="/isa">ISA</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
               <li><Link to="/hire-form-us">Hire Form Us</Link></li>
