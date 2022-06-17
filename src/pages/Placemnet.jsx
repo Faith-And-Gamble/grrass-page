@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import backgrounddivider from '../components/image/bgDowwn.jpg';
+import Query from './Query';
 
 function Placement() {
   return (
@@ -19,323 +21,112 @@ function Placement() {
           </div>
         </div>
       </section>
-      <div className="container" style={{ marginTop: 20 }}>
-        <div className="row mtli-row-clearfix">
-          <div className="col-sm-4 col-md-4 col-lg-4">
-            <div className="card effect__hover">
-              <div className="card__front bg-theme-colored">
-                <div className="card__text">
-                  <div className="display-table-parent">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <div className="icon-box mb-0">
-                          {' '}
-                          <a href="/" className="icon mb-0">
-                            {' '}
-                            <i className="text-white pe-7s-users font-72" />
-                            {' '}
-                          </a>
-                          <h3 className="icon-box-title text-uppercase text-white">Title Here</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card__back" data-bg-color="#e0e0e0">
-                <div className="card__text">
-                  <div className="display-table-parent p-30">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <h4 className="text-uppercase">Title Here</h4>
-                        <p>.........</p>
-                        <a href="/" className="btn btn-default mt-10"> Read More </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-          </div>
-          <div className="col-sm-4 col-md-4 col-lg-4">
-            <div className="card effect__hover">
-              <div className="card__front bg-black">
-                <div className="card__text">
-                  <div className="display-table-parent">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <div className="icon-box mb-0">
-                          {' '}
-                          <a href="/" className="icon mb-0">
-                            {' '}
-                            <i className="text-white pe-7s-users font-72" />
-                            {' '}
-                          </a>
-                          <h3 className="icon-box-title text-uppercase text-white">Title Here</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card__back" data-bg-color="#e0e0e0">
-                <div className="card__text">
-                  <div className="display-table-parent p-30">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <h4 className="text-uppercase">Title Here</h4>
-                        <p>......</p>
-                        <a href="/" className="btn btn-default mt-10"> Read More </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-4 col-md-4 col-lg-4">
-            <div className="card effect__hover">
-              <div className="card__front bg-theme-colored">
-                <div className="card__text">
-                  <div className="display-table-parent">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <div className="icon-box mb-0">
-                          {' '}
-                          <a href="/" className="icon mb-0">
-                            {' '}
-                            <i className="text-white pe-7s-users font-72" />
-                            {' '}
-                          </a>
-                          <h3 className="icon-box-title text-uppercase text-white">Title Here</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card__back" data-bg-color="#e0e0e0">
-                <div className="card__text">
-                  <div className="display-table-parent p-30">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <h4 className="text-uppercase">Title Here</h4>
-                        <p>.........</p>
-                        <a href="/" className="btn btn-default mt-10"> Read More </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <section className="position-inherit">
+        <div className="container">
 
-          </div>
-
-          <div className="col-sm-4 col-md-4 col-lg-4" style={{ marginTop: 20 }}>
-            <div className="card effect__hover">
-              <div className="card__front bg-theme-colored">
-                <div className="card__text">
-                  <div className="display-table-parent">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <div className="icon-box mb-0">
-                          {' '}
-                          <a href="/" className="icon mb-0">
-                            {' '}
-                            <i className="text-white pe-7s-users font-72" />
-                            {' '}
-                          </a>
-                          <h3 className="icon-box-title text-uppercase text-white">Title Here</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card__back" data-bg-color="#e0e0e0">
-                <div className="card__text">
-                  <div className="display-table-parent p-30">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <h4 className="text-uppercase">Title Here</h4>
-                        <p>.........</p>
-                        <a href="/" className="btn btn-default mt-10"> Read More </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div className="col-sm-4 col-md-4 col-lg-4" style={{ marginTop: 20 }}>
-            <div className="card effect__hover">
-              <div className="card__front bg-black">
-                <div className="card__text">
-                  <div className="display-table-parent">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <div className="icon-box mb-0">
-                          {' '}
-                          <a href="/" className="icon mb-0">
-                            {' '}
-                            <i className="text-white pe-7s-users font-72" />
-                            {' '}
-                          </a>
-                          <h3 className="icon-box-title text-uppercase text-white">Title Here</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card__back" data-bg-color="#e0e0e0">
-                <div className="card__text">
-                  <div className="display-table-parent p-30">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <h4 className="text-uppercase">Title Here</h4>
-                        <p>......</p>
-                        <a href="/" className="btn btn-default mt-10"> Read More </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-4 col-md-4 col-lg-4" style={{ marginTop: 20 }}>
-            <div className="card effect__hover">
-              <div className="card__front bg-theme-colored">
-                <div className="card__text">
-                  <div className="display-table-parent">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <div className="icon-box mb-0">
-                          {' '}
-                          <a href="/" className="icon mb-0">
-                            {' '}
-                            <i className="text-white pe-7s-users font-72" />
-                            {' '}
-                          </a>
-                          <h3 className="icon-box-title text-uppercase text-white">Title Here</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card__back" data-bg-color="#e0e0e0">
-                <div className="card__text">
-                  <div className="display-table-parent p-30">
-                    <div className="display-table">
-                      <div className="display-table-cell">
-                        <h4 className="text-uppercase">Title Here</h4>
-                        <p>.........</p>
-                        <a href="/" className="btn btn-default mt-10"> Read More </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <section id="contact" className="bg-silver-light">
-        <div className="container pb-sm-12">
           <div className="row">
             <div className="col-md-12">
-              <div className="contact-details bg-white border-theme-color-1px p-30 pt-40 pr-20 pb-60">
-                <h3 className="font-24 mb-20">
-                  Have you ever thought about easy our lives would
-                  be if we could learn and get trained first and
-                  pay when we start to earn? It is now possible
-                  with Grras Solution’s
-                  {' '}
-                  <span className="text-theme-colored">new program Aarambh</span>
-                  {' '}
-                  <br />
-                  <br />
-                  <span>Your Career, Our Mission.....</span>
-                </h3>
-              </div>
+              <h4 className="widget-title title-dots mt-30"><span>PAY AFTER PLACEMENT</span></h4>
             </div>
-          </div>
-        </div>
-      </section>
-      <section id="contact" className="bg-silver-light">
-        <div className="container pb-sm-12">
-          <div className="row">
-            <div className="col-md-6">
-              <div className="contact-details bg-white border-theme-color-1px p-30 pt-40 pr-20 pb-60">
-                <h3 className="font-24 mb-20">
-                  An apt name for the program,
-                  Aarambh is all about taking your first steps and
-                  {' '}
-                  <span className="text-theme-colored">starting right.</span>
-                  {' '}
-                </h3>
-                <p>
+            <div className="col-md-3 scrolltofixed-container">
+              <div className="list-group scrolltofixed z-index-0">
+                <a href="#section-one" className="list-group-item smooth-scroll-to-target">Aarambh – Your Career, Our Mission.</a>
 
-                  Our Pay After Placement program is all that you need to enrol with
-                  today to be able to begin your journey and find success
-                  in the world of technology. With the right options comes right opportunities
-                  and that is why Grras Solutions’ Pay After Placement program is the one for you.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="contact-details bg-white border-theme-color-1px p-30 pt-40 pr-20 pb-60">
-                <h3 className="font-24 mb-20">
-                  Change the pace and the outcome of
-                  Your career with our newly launched pay after
-                  {' '}
-                  <span className="text-theme-colored">placement program.</span>
-                  {' '}
-                </h3>
-                <p>
-                  Are you now wondering what is the program about?
-                  The program is for DevOps and Cloud Computing training
-                  wherein you get trained at ZERO UPFRONT FEE.
-                  This means that you have to pay zero money
-                  initially and get the chance to get trained in this course free of cost!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="contact" className="bg-silver-light">
-        <div className="container pb-sm-10">
-          <div className="row">
-            <div className="col-md-6">
-              <div className="contact-details bg-white border-theme-color-1px p-30 pt-40 pr-20 pb-60">
-                <h3 className="font-24 mb-20">
-                  How will you land a job?
-                  {' '}
-                  <span className="text-theme-colored">We will help you in that too!</span>
-                  {' '}
-                </h3>
-                <p>
-                  Our Pay After Placement program comes along
-                  our Job Oriented program wherein, we provide you with 100%
-                  job placement guarantee.
-                  Thus, al you have to do is get trained and it is on us to get you placed
-                </p>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="contact-details bg-white border-theme-color-1px p-30 pt-40 pr-20 pb-60">
-                <h3 className="font-24 mb-20">
+                <a href="#section-two" className="list-group-item smooth-scroll-to-target">How will you land a job? We will help you in that too!</a>
+
+                <a href="#section-three" className="list-group-item smooth-scroll-to-target">So, when do you have to pay? Only after you get placed!</a>
+
+                <a href="#section-four" className="list-group-item smooth-scroll-to-target">
+                  Change the pace and the outcome of Your career with our newly launched pay after
+                  placement program.
+                </a>
+
+                <a href="#section-five" className="list-group-item smooth-scroll-to-target">We will help you in that too!</a>
+                <a href="#section-six" className="list-group-item smooth-scroll-to-target">
                   So, when do you have to pay?
                   {' '}
                   <span className="text-theme-colored"> Only after you get placed!</span>
                   {' '}
+
+                </a>
+              </div>
+            </div>
+            <div className="col-md-9">
+              <div id="section-one" className="mb-50">
+                <h3>Aarambh – Your Career, Our Mission.</h3>
+                <hr />
+                <p className="mb-20">
+                  Have you ever thought about easy our lives would be
+                  if we could learn and get trained first and pay when
+                  we start to earn? It is now possible with Grras Solution’s
+                  new program Aarambh – Your Career, Our Mission.
+
+                </p>
+              </div>
+              <div id="section-two" className="mb-50">
+                <h3>How will you land a job? We will help you in that too!</h3>
+                <hr />
+                <p className="mb-20">
+                  Our Pay After Placement program comes
+                  along our Job Oriented program wherein,
+                  we provide you with 100% job placement
+                  guarantee. Thus,
+                  al you have to do is get trained
+                  and it is on us to get you placed.
+
+                </p>
+              </div>
+              <div id="section-three" className="mb-50">
+                <h3>So, when do you have to pay? Only after you get placed!</h3>
+                <hr />
+                <p className="mb-20">
+                  This is a ‘NO JOB, NO FEE’ program. Hence,
+                  if we fail to find the right job for you to begin your career with,
+                  you will not have to pay a single penny to us! This is your cue
+                  to start your tech journey with DevOps and Cloud Computing today!
+
+                </p>
+              </div>
+              <div id="section-four" className="mb-50">
+                <h3>
+                  Change the pace and the outcome of Your career with our newly launched pay after
+                  placement program.
                 </h3>
-                <p>
+                <hr />
+                <p className="mb-20">
+                  .Are you now wondering what is the
+                  program about? The program is for
+                  DevOps and Cloud Computing training
+                  wherein you get trained at ZERO UPFRONT FEE.
+                  This means that you have to pay
+                  zero money initially and get
+                  the chance to get trained in this course free of cost!
+
+                </p>
+              </div>
+              <div id="section-five" className="mb-50">
+                <h3>We will help you in that too!</h3>
+                <hr />
+                <p className="mb-20">
+                  Our Pay After Placement program comes along
+                  our Job Oriented program wherein, we provide you with 100%
+                  job placement guarantee.
+                  Thus, al you have to do is get trained and it is on us to get you placed
+
+                </p>
+              </div>
+
+              <div id="section-six" className="mb-50">
+                <h3>
+                  So, when do you have to pay?
+                  {' '}
+                  <span className="text-theme-colored"> Only after you get placed!</span>
+                  {' '}
+
+                </h3>
+                <hr />
+                <p className="mb-20">
                   This is a
                   {' '}
                   <span className="text-theme-colored">‘NO JOB, NO FEE’</span>
@@ -344,12 +135,15 @@ function Placement() {
                   Hence, if we fail to find the right job for you to begin your career with,
                   you will not have to pay a single penny to us!
                   This is your cue to start your tech journey with DevOps and Cloud Computing today!
+
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <Query />
+
     </div>
   );
 }
