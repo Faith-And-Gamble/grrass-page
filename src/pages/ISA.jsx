@@ -114,7 +114,6 @@ function ISA() {
 
               <div className="col-xs-12 col-sm-6 col-md-6">
                 <article className="post media-post clearfix pb-0 mb-10">
-                  <a className="post-thumb" href="/"><img src="assets/images/magazine/fn-md1.jpg" alt="" /></a>
                   <div className="post-right">
                     <h5 className="entry-title text-uppercase mt-0 mb-5"><a href="/">Pay after Placement & ISA Agreement</a></h5>
                     <p>
@@ -131,7 +130,6 @@ function ISA() {
 
               <div className="col-xs-12 col-sm-6 col-md-6">
                 <article className="post media-post clearfix pb-0 mb-10">
-                  <a className="post-thumb" href="/"><img src="assets/images/magazine/fn-md2.jpg" alt="" /></a>
                   <div className="post-right">
                     <h5 className="entry-title text-uppercase mt-0 mb-5"><a href="/">Job Oriented Program</a></h5>
                     <p>
@@ -145,7 +143,6 @@ function ISA() {
               </div>
               <div className="col-xs-12 col-sm-6 col-md-6">
                 <article className="post media-post clearfix pb-0 mb-10">
-                  <a className="post-thumb" href="/"><img src="assets/images/magazine/fn-md3.jpg" alt="" /></a>
                   <div className="post-right">
                     <h5 className="entry-title text-uppercase mt-0 mb-5"><a href="/">Seasoned Trainer</a></h5>
                     <p>
@@ -159,7 +156,6 @@ function ISA() {
 
               <div className="col-xs-12 col-sm-6 col-md-6">
                 <article className="post media-post clearfix pb-0 mb-10">
-                  <a className="post-thumb" href="/"><img src="assets/images/magazine/fn-md4.jpg" alt="" /></a>
                   <div className="post-right">
                     <h5 className="entry-title text-uppercase mt-0 mb-5"><a href="/">Zero Upfront Fee</a></h5>
                     <p>
@@ -173,7 +169,6 @@ function ISA() {
 
               <div className="col-xs-12 col-sm-6 col-md-6">
                 <article className="post media-post clearfix pb-0 mb-10">
-                  <a className="post-thumb" href="/"><img src="assets/images/magazine/fn-md4.jpg" alt="" /></a>
                   <div className="post-right">
                     <h5 className="entry-title text-uppercase mt-0 mb-5"><a href="/">Systematic & Easy Instalments</a></h5>
                     <p>
