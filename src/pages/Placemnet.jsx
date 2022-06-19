@@ -135,7 +135,6 @@ function Placement() {
                   Hence, if we fail to find the right job for you to begin your career with,
                   you will not have to pay a single penny to us!
                   This is your cue to start your tech journey with DevOps and Cloud Computing today!
-
                 </p>
               </div>
             </div>
