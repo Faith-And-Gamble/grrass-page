@@ -26,7 +26,7 @@ function Footer() {
                 </p>
                 <ul className="styled-icons icon-dark mt-20">
                   <li>
-                    <a href="/" data-bg-color="#3B5998">
+                    <a href="https://www.facebook.com/jobplacementcoursegrras/" data-bg-color="#3B5998">
                       <i className="fa fa-facebook" />
                     </a>
                   </li>

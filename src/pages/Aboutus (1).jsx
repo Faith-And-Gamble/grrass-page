@@ -2,24 +2,34 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
+import backgrounddivider from '../components/image/bgDowwn.jpg';
 
 function Aboutus() {
   return (
     <div>
-
+      <section className="inner-header divider parallax layer-overlay overlay-dark-5" style={{ backgroundImage: `url(${backgrounddivider})` }}>
+        <div className="container pt-70 pb-50">
+          <div className="section-content">
+            <div className="row">
+              <div className="col-md-12">
+                <h4 className="title text-white">About Us</h4>
+                <ul className="breadcrumb white">
+                  <li><a className="text-white" href="index-mp-layout1.html">Home</a></li>
+                  <li className="active">About Us</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="">
         <div className="container">
           <div className="section-content">
             <div className="row">
               <div className="col-md-6">
-                <h2 className="text-uppercase mt-0">
-                  Aarambh – ,
-                  {' '}
-                  <span className="text-theme-colored">Your Career</span>
-                  <br />
-                  {' '}
-                  Our Mission
-                </h2>
+                <div className="col-md-12">
+                  <h4 className="widget-title title-dots mt-30"><span>AARAMBH YOUR CAREER OUR MISSION</span></h4>
+                </div>
                 <h4 className="text-gray-dimgray font-weight-400">
                   <em>
                     Your first step towards a successful career in the tech world!
@@ -85,8 +95,232 @@ function Aboutus() {
                 </div>
               </div>
             </div>
+
+            <hr />
+            <section id="board_of_directors" className="">
+              <div className="container custom-container">
+                <h1 className="module-heading text-center text-uppercase mt-0 mb-3">
+                  Board of
+                  {' '}
+                  <span className="text-p">Directors Profile</span>
+                </h1>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <div className="director-box aos-init aos-animate" data-aos="zoom-in">
+                      <div className="row">
+                        <div className="col-sm-4">
+                          <div className="director-img">
+                            <img src="https://grras.com/files/9dlwpsicpc98esvm1qvr/Akhilesh Jain optimized.jpg?s=133x130" alt="Mr  Akhilesh Jain" className="img-responsive" />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <div className="director-data">
+                            <h3 className="director-name mt-0">Akhilesh Jain</h3>
+                            <div className="director-info">
+                              <div>CEO &amp; Founder</div>
+                              <div>
+                                12+ Years Experience
+                                <br />
+                              </div>
+                              <div>
+                                B.Tech, RHCSS, RHCE, AWS-CSA
+                                <br />
+                              </div>
+                              <div>
+                                Expertise in Security &amp; AWS Cloud
+                                <br />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <div className="director-box aos-init aos-animate" data-aos="zoom-in">
+                      <div className="row">
+                        <div className="col-sm-4">
+                          <div className="director-img">
+                            <img src="https://grras.com/files/6lxkou9oim2pyoy2vbzu/Gaurav Saluja optimized.jpg?s=133x130" alt="Gaurav Saluja" className="img-responsive" />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <div className="director-data">
+                            <h3 className="director-name mt-0">Gaurav Saluja</h3>
+                            <div className="director-info">
+                              <div>CEO &amp; Founder</div>
+                              <div>
+                                12+ Years Experience
+                                <br />
+                              </div>
+                              <div>
+                                B.Tech, RHCA - Level5, RHCSS, RHCDS, RHCVA, RHCE
+                                <br />
+                              </div>
+                              Expertise in Linux Tuning &amp; Tshoot
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <div className="director-box aos-init aos-animate" data-aos="zoom-in">
+                      <div className="row">
+                        <div className="col-sm-4">
+                          <div className="director-img">
+                            <img src="https://grras.com/files/t8vxzbwqk0ew0ihykbwn/Rajat Goyal optimized.jpg?s=133x130" alt="Rajat Goyal " className="img-responsive" />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <div className="director-data">
+                            <h3 className="director-name mt-0">Rajat Goyal</h3>
+                            <div className="director-info">
+                              <div>CEO &amp; Founder</div>
+                              <div>
+                                12+ Years Experience
+                                <br />
+                              </div>
+                              <div>
+                                B.Tech, CCNA, RHCVA, RHCE
+                                <br />
+                              </div>
+                              Expertise in Linux, Cloud &amp; Scripting
+                              {' '}
+                              <br />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <div className="director-box aos-init aos-animate" data-aos="zoom-in">
+                      <div className="row">
+                        <div className="col-sm-4">
+                          <div className="director-img">
+                            <img src="https://grras.com/files/das5ysf087rpzudahmbh/Ravi Sarswat.jpg?s=133x130" alt="" className="img-responsive" />
+                          </div>
+                        </div>
+                        <div className="col-sm-8">
+                          <div className="director-data">
+                            <h3 className="director-name mt-0">Ravi Sarswat</h3>
+                            <div className="director-info">
+                              <div>CEO &amp; Founder</div>
+                              <div>
+                                12+ Years Experience
+                                <br />
+                              </div>
+                              <div>
+                                MCA, RHCVA, CCNA, RHCE
+                                <br />
+                              </div>
+                              Expertise in Linux &amp; Virtualization
+                              {' '}
+                              <br />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <hr />
+            <div className="row">
+              <div className="col-md-12">
+                <h4 className="widget-title title-dots mt-30"><span>CORPORATE VIDEO</span></h4>
+              </div>
+              <div className="col-md-6">
+                <h2 className="text-uppercase mt-0">
+                  GRRASS VIDEO
+                </h2>
+                <h4 className="text-gray-dimgray font-weight-400">
+                  <em>
+                    Your first step towards a successful career in the tech world!
+                  </em>
+                </h4>
+                <p>
+                  Our criteria are not just to deliver learning but to create a
+                  bright and successful future of aspiring experts with an aim to
+                  create an enhanced groundwork for the prospect of IT aspirants
+                  and professionals and to generate knowledge of Open Source Technology
+                  in India. This short motion picture would help you envisage our
+                  idea and would aid in visualizing it through our eyes.
+                </p>
+              </div>
+              <div className="col-md-6">
+                <div className="fluid-video-wrapper">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/lmRMvVcnGNo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                </div>
+              </div>
+            </div>
+            <hr />
+
+            <div className="row">
+              <div className="col-md-12">
+                <h4 className="widget-title title-dots mt-30"><span>Mission</span></h4>
+              </div>
+              <div className="col-md-4">
+                <h2 className="mt-0">Our Mission</h2>
+                <p className="lead text-theme-colored">Your support will help us to make us create better oppurtunities and reliable structures for learning.</p>
+                <p>
+                  Grras Solutions has been in the training and certification
+                  sector for the last thirteen years.
+                  In this expansive period of time,
+                  our founders time and again came across students
+                  who held high calibre but little financial means
+                  to enrol with good institutes to get quality training in their chosen fields.
+                  {' '}
+
+                </p>
+              </div>
+              <div className="col-md-4">
+                <div className="icon-box text-center p-0 mb-sm-40 border-3px border-theme-colored p-30">
+                  <a href="/" className="icon">
+                    <i className="fa fa-recycle font-54 text-theme-colored" />
+                  </a>
+                  <div>
+                    <h4 className="icon-box-title mt-15 mb-10 text-uppercase letter-space-2"><strong>Our Mission</strong></h4>
+                    <p>
+                      Grras Solutions has been in the training and
+                      certification sector for the last thirteen years.
+                      In this expansive period of time,
+                      our founders time and again came across
+                      students who held high calibre but little financial means to
+                      enrol with good institutes to get quality training in their chosen fields.
+                      {' '}
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="icon-box text-center p-0 mb-sm-40 border-3px border-theme-colored p-30">
+                  <a href="/" className="icon">
+                    <i className="fa fa-comments-o font-54 text-theme-colored" />
+                  </a>
+                  <div>
+                    <h4 className="icon-box-title mt-15 mb-10 text-uppercase letter-space-2"><strong>Our Vision</strong></h4>
+                    <p>
+                      Grras Solutions has been in the training and
+                      certification sector for the last thirteen years.
+                      In this expansive period of time,
+                      our founders time and again came across students who held
+                      high calibre but little
+                      financial means to enrol with good institutes to get quality
+                      training in their chosen fields.
+                      {' '}
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <hr />
       </section>
 
       <section>

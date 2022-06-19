@@ -49,6 +49,70 @@ function Aboutus() {
                 </ul>
               </div>
             </div>
+
+            <hr />
+            <div className="row">
+              <div className="col-md-12">
+                <h4 className="widget-title title-dots mt-30"><span>Fashion News</span></h4>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-6">
+                <article className="post media-post clearfix pb-0 mb-10">
+                  <a className="post-thumb" href="/"><img src="images/magazine/fn-md1.jpg" alt="" /></a>
+                  <div className="post-right">
+                    <h5 className="entry-title text-uppercase mt-0 mb-5"><a href="/">consectetur adipisicing</a></h5>
+                    <p className="post-date mb-10 font-12">By Admin, 29 Aug 2012</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Praesentium magnam impedit amet consectetur adipisicing
+
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-6">
+                <article className="post media-post clearfix pb-0 mb-10">
+                  <a className="post-thumb" href="/"><img src="images/magazine/fn-md2.jpg" alt="" /></a>
+                  <div className="post-right">
+                    <h5 className="entry-title text-uppercase mt-0 mb-5"><a href="/">consectetur adipisicing</a></h5>
+                    <p className="post-date mb-10 font-12">By Admin, 29 Aug 2012</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Praesentium magnam impedit amet consectetur adipisicing
+
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-6">
+                <article className="post media-post clearfix pb-0 mb-10">
+                  <a className="post-thumb" href="/"><img src="images/magazine/fn-md3.jpg" alt="" /></a>
+                  <div className="post-right">
+                    <h5 className="entry-title text-uppercase mt-0 mb-5"><a href="/">consectetur adipisicing</a></h5>
+                    <p className="post-date mb-10 font-12">By Admin, 29 Aug 2012</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Praesentium magnam impedit amet consectetur adipisicing
+
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-6">
+                <article className="post media-post clearfix pb-0 mb-10">
+                  <a className="post-thumb" href="/"><img src="images/magazine/fn-md4.jpg" alt="" /></a>
+                  <div className="post-right">
+                    <h5 className="entry-title text-uppercase mt-0 mb-5"><a href="/">consectetur adipisicing</a></h5>
+                    <p className="post-date mb-10 font-12">By Admin, 29 Aug 2012</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Praesentium magnam impedit amet consectetur adipisicing
+
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <hr />
             <div className="row mt-30">
               <div className="col-md-4">
                 <h4 className="line-bottom">About Me:</h4>
