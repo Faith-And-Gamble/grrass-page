@@ -39,11 +39,56 @@ function Appbar() {
           <div className="col-md-4 pr-0">
             <div className="widget pull-right no-border m-0">
               <ul className="styled-icons icon-dark icon-flat icon-sm sm-text-center mt-sm-15">
-                <li><a href="https://www.facebook.com/jobplacementcoursegrras/" target="_blank" rel="noreferrer"><i className="fa fa-facebook text-white" /></a></li>
-                <li><a href="/"><i className="fa fa-twitter text-white" /></a></li>
-                <li><a href="/"><i className="fa fa-google-plus text-white" /></a></li>
-                <li><a href="/"><i className="fa fa-instagram text-white" /></a></li>
-                <li><a href="/"><i className="fa fa-linkedin text-white" /></a></li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/jobplacementcoursegrras/"
+                    target="_blank"
+                    rel="noreferrer"
+                    data-bg-color="#3B5998"
+                  >
+                    <i className="fa fa-facebook" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/aarambh.jobplacement/"
+                    target="_blank"
+                    rel="noreferrer"
+                    data-bg-color="#02B0E8"
+                  >
+                    <i className="fa fa-instagram" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/aarambh-pay-after-placement-training/"
+                    target="_blank"
+                    rel="noreferrer"
+                    data-bg-color="#05A7E3"
+                  >
+                    <i className="fa fa-linkedin" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://g.page/r/CV0-oeB8da-kEAE"
+                    data-bg-color="#A11312"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa fa-map-marker" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCthWyIq57rAjEqgWEn7D5QA"
+                    target="_blank"
+                    rel="noreferrer"
+                    data-bg-color="#C22E2A"
+                  >
+                    <i className="fa fa-youtube" />
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
