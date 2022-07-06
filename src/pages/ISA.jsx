@@ -10,10 +10,10 @@ function ISA() {
           <div className="section-content">
             <div className="row">
               <div className="col-md-12">
-                <h4 className="title text-white">Training Highlights</h4>
+                <h4 className="title text-white">Income-share Agreement</h4>
                 <ul className="breadcrumb white">
                   <li><a className="text-white" href="index-mp-layout1.html">Home</a></li>
-                  <li className="active">Training Highlights</li>
+                  <li className="active">ISA</li>
                 </ul>
               </div>
             </div>
@@ -25,7 +25,7 @@ function ISA() {
           <div className="section-content">
             <div className="row">
               <div className="col-md-12">
-                <h4 className="widget-title title-dots mt-30"><span>TRAINING HIGHLIGHTS</span></h4>
+                <h4 className="widget-title title-dots mt-30"><span>ISA and TRAINING HIGHLIGHTS</span></h4>
               </div>
 
               <div className="col-md-6">

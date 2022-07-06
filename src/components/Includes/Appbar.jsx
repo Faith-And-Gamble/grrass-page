@@ -25,12 +25,12 @@ function Appbar() {
                   {' '}
                   <i className="fa fa-clock-o text-theme-colored" />
                   {' '}
-                  Mon-Fri 8:00 to 2:00
+                  Mon-Fri 9:00am - 9:00pm
                 </li>
                 <li className="m-0 pl-10 pr-10">
                   <a href="/" className="text-white">
                     <i className="fa fa-envelope-o text-theme-colored" />
-                    info@ygrass.com
+                    info@grras.com
                   </a>
                 </li>
               </ul>

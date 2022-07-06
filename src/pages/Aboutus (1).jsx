@@ -370,7 +370,7 @@ function Aboutus() {
                           <br />
                           <span>Email:</span>
                           {' '}
-                          info@ygrass.com
+                          info@grras.com
                         </p>
                       </div>
                     </li>

@@ -98,7 +98,7 @@ function Form() {
                     <div className="col-sm-12">
                       <div className="form-group">
                         <label>
-                          Choose The Duration Of Your Internship
+                          Qualification
                           <small>*</small>
                         </label>
                         <select
@@ -107,12 +107,12 @@ function Form() {
                           onChange={handleChange}
                           value={formData.duration_days}
                         >
-                          <option value="30">30 Days</option>
-                          <option value="45">45 Days</option>
-                          <option value="60">2 Month</option>
-                          <option value="90">3 Month</option>
-                          <option value="120">4 Month</option>
-                          <option value="180">6 Month</option>
+                          <option>Select</option>
+                          <option value="b.tech">B.Tech</option>
+                          <option value="m.tech">M.Tech</option>
+                          <option value="bca">BCA</option>
+                          <option value="mca">MCA</option>
+                          <option value="other">Other</option>
                         </select>
                       </div>
                     </div>

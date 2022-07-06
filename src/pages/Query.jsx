@@ -62,7 +62,7 @@ function Query() {
                     Email:
                     {' '}
                   </span>
-                  info@ygrras.com
+                  info@grras.com
                 </li>
               </ul>
             </div>

@@ -8,7 +8,7 @@ function Footer() {
       <footer id="footer" className="footer pb-0 bg-black-111">
         <div className="container pt-70 pb-40">
           <div className="row multi-row-clearfix">
-            <div className="col-sm-6 col-md-3">
+            <div className="col-sm-6 col-md-4">
               <div className="widget dark">
                 {' '}
                 <img
@@ -26,27 +26,52 @@ function Footer() {
                 </p>
                 <ul className="styled-icons icon-dark mt-20">
                   <li>
-                    <a href="https://www.facebook.com/jobplacementcoursegrras/" data-bg-color="#3B5998">
+                    <a
+                      href="https://www.facebook.com/jobplacementcoursegrras/"
+                      target="_blank"
+                      rel="noreferrer"
+                      data-bg-color="#3B5998"
+                    >
                       <i className="fa fa-facebook" />
                     </a>
                   </li>
                   <li>
-                    <a href="/" data-bg-color="#02B0E8">
-                      <i className="fa fa-twitter" />
+                    <a
+                      href="https://www.instagram.com/aarambh.jobplacement/"
+                      target="_blank"
+                      rel="noreferrer"
+                      data-bg-color="#02B0E8"
+                    >
+                      <i className="fa fa-instagram" />
                     </a>
                   </li>
                   <li>
-                    <a href="/" data-bg-color="#05A7E3">
-                      <i className="fa fa-skype" />
+                    <a
+                      href="https://www.linkedin.com/company/aarambh-pay-after-placement-training/"
+                      target="_blank"
+                      rel="noreferrer"
+                      data-bg-color="#05A7E3"
+                    >
+                      <i className="fa fa-linkedin" />
                     </a>
                   </li>
                   <li>
-                    <a href="/" data-bg-color="#A11312">
-                      <i className="fa fa-google-plus" />
+                    <a
+                      href="https://g.page/r/CV0-oeB8da-kEAE"
+                      data-bg-color="#A11312"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="fa fa-map-marker" />
                     </a>
                   </li>
                   <li>
-                    <a href="/" data-bg-color="#C22E2A">
+                    <a
+                      href="https://www.youtube.com/channel/UCthWyIq57rAjEqgWEn7D5QA"
+                      target="_blank"
+                      rel="noreferrer"
+                      data-bg-color="#C22E2A"
+                    >
                       <i className="fa fa-youtube" />
                     </a>
                   </li>
@@ -58,50 +83,22 @@ function Footer() {
                 <h5 className="widget-title line-bottom">Pages</h5>
                 <ul className="list list-border">
                   <li>
-                    <a href="/">About Us</a>
+                    <a href="/about">About Us</a>
                   </li>
                   <li>
-                    <a href="/">Services</a>
+                    <a href="/placement">Pay after Payment</a>
                   </li>
                   <li>
-                    <a href="/">Experts</a>
+                    <a href="/isa ">ISA</a>
                   </li>
                   <li>
-                    <a href="/">Gallery</a>
-                  </li>
-                  <li>
-                    <a href="/">Blog</a>
-                  </li>
-                  <li>
-                    <a href="/">Contact</a>
+                    <a href="/contact">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-sm-6 col-md-3">
-              <div className="widget dark">
-                <h5 className="widget-title line-bottom">Quick Links</h5>
-                <ul className="list-border list theme-colored angle-double-right">
-                  <li>
-                    <a href="/">Privacy Policy</a>
-                  </li>
-                  <li>
-                    <a href="/">Donor Privacy Policy</a>
-                  </li>
-                  <li>
-                    <a href="/">Disclaimer</a>
-                  </li>
-                  <li>
-                    <a href="/">Terms of Use</a>
-                  </li>
-                  <li>
-                    <a href="/">Copyright Notice</a>
-                  </li>
-                  <li>
-                    <a href="/">Media Center</a>
-                  </li>
-                </ul>
-              </div>
+            <div className="col-sm-6 col-md-2">
+              <div className="widget dark" />
             </div>
             <div className="col-sm-6 col-md-3">
               <div className="widget dark">
@@ -111,7 +108,7 @@ function Footer() {
                     <a href="/">+91-9983340133</a>
                   </li>
                   <li>
-                    <a href="/">info@ygrass.com</a>
+                    <a href="/">info@grras.com</a>
                   </li>
                   <li>
                     <a href="/" className="lineheight-20">
@@ -156,7 +153,7 @@ function Footer() {
           <div className="row text-center">
             <div className="col-md-12">
               <p className="text-white font-11 m-0">
-                Copyright &copy;2016 ThemeMascot. All Rights Reserved
+                Copyright &copy; Aarambh. All Rights Reserved
               </p>
             </div>
           </div>

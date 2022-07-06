@@ -1,7 +1,7 @@
-/* eslint-disable react/button-has-type */
 import React from 'react';
 import background from '../components/image/bgDowwn.jpg';
 import Query from './Query';
+import Pdf from '../components/course_content.pdf';
 
 function Home() {
   return (
@@ -33,31 +33,31 @@ function Home() {
               <div className="row" style={{ marginLeft: '120px' }}>
                 <ul className="working-process square theme-colored">
                   <li className="col-xs-12 col-sm-2">
-                    <a href="/" target="_blank">
+                    <a href="/" style={{ pointerEvents: 'none' }} target="_blank">
                       <i className="fa fa-book" />
                     </a>
                     <h5 className="text-white">Enroll</h5>
                   </li>
                   <li className="col-xs-12 col-sm-2">
-                    <a href="/" target="_blank">
+                    <a href="/" style={{ pointerEvents: 'none' }} target="_blank">
                       <i className="fa fa-shield" />
                     </a>
                     <h5 className="text-white">Selection</h5>
                   </li>
                   <li className="col-xs-12 col-sm-2">
-                    <a href="/" target="_blank">
+                    <a href="/" style={{ pointerEvents: 'none' }} target="_blank">
                       <i className="fa fa-calendar" />
                     </a>
                     <h5 className="text-white">Training</h5>
                   </li>
                   <li className="col-xs-12 col-sm-2">
-                    <a href="/" target="_blank">
+                    <a href="/" style={{ pointerEvents: 'none' }} target="_blank">
                       <i className="fa fa-calendar" />
                     </a>
                     <h5 className="text-white">Start Work</h5>
                   </li>
                   <li className="col-xs-12 col-sm-2">
-                    <a href="/" target="_blank">
+                    <a href="/" style={{ pointerEvents: 'none' }} target="_blank">
                       <i className="fa fa-calendar" />
                     </a>
                     <h5 className="text-white">Pay after Placement</h5>
@@ -81,7 +81,10 @@ function Home() {
                 </p>
                 <a
                   className="btn btn-colored btn-flat btn-theme-colored ajaxload-popup pb-10"
-                  href="#ß"
+                  href={Pdf}
+                  download="Aarambh course content"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Explore
                 </a>
