@@ -26,10 +26,10 @@ function Aboutus() {
         <div className="container">
           <div className="section-content">
             <div className="row">
+              <div className="col-md-12">
+                <h6 className="widget-title title-dots mt-90"><span style={{ fontSize: '16px' }}>AARAMBH YOUR CAREER OUR MISSION</span></h6>
+              </div>
               <div className="col-md-6">
-                <div className="col-md-12">
-                  <h4 className="widget-title title-dots mt-30"><span>AARAMBH YOUR CAREER OUR MISSION</span></h4>
-                </div>
                 <h4 className="text-gray-dimgray font-weight-400">
                   <em>
                     Your first step towards a successful career in the tech world!

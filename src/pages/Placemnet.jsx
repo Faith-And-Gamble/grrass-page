@@ -14,7 +14,7 @@ function Placement() {
                 <h4 className="title text-white">Placement</h4>
                 <ul className="breadcrumb white">
                   <li><a className="text-white" href="index-mp-layout1.html">Home</a></li>
-                  <li className="active">Placemnet Details</li>
+                  <li className="active">Placement Details</li>
                 </ul>
               </div>
             </div>

@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
+import ButtonMailto from './ButtonMail';
 
 function Appbar() {
   return (
@@ -11,14 +12,14 @@ function Appbar() {
               <ul className="list-inline pull-left flip sm-pull-none xs-text-center text-white mt-5">
                 <li className="m-0 pl-10 pr-10">
                   {' '}
-                  <a href="/" className="text-white">
+                  <a href="/whatsapp" style={{ color: 'white' }}>
                     <i
-                      className="fa fa-phone text-theme-colored"
+                      className="fa fa-whatsapp text-theme-colored"
                     />
                     {' '}
                     9983340133
+                    {' '}
                   </a>
-                  {' '}
 
                 </li>
                 <li className="m-0 pl-10 pr-10">
@@ -28,10 +29,10 @@ function Appbar() {
                   Mon-Fri 9:00am - 9:00pm
                 </li>
                 <li className="m-0 pl-10 pr-10">
-                  <a href="/" className="text-white">
+                  <ButtonMailto label="Write us an E-Mail" mailto="mailto:info@grras.com">
                     <i className="fa fa-envelope-o text-theme-colored" />
                     info@grras.com
-                  </a>
+                  </ButtonMailto>
                 </li>
               </ul>
             </div>

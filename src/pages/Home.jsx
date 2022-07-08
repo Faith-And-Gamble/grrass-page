@@ -1,7 +1,9 @@
 import React from 'react';
-import background from '../components/image/bgDowwn.jpg';
+// import background from '../components/image/bgDowwn.jpg';
 import Query from './Query';
 import Pdf from '../components/course_content.pdf';
+import Img2 from '../components/image/img2.jpeg';
+import Img1 from '../components/image/img1.jpeg';
 
 function Home() {
   return (
@@ -9,7 +11,7 @@ function Home() {
       <section
         className="divider parallax layer-overlay back"
         data-parallax-ratio="0.0"
-        style={{ backgroundImage: `url(${background})` }}
+        style={{ backgroundImage: `url(${Img2})` }}
       >
         <div className="container">
           <div className="row text-center">
@@ -266,7 +268,7 @@ function Home() {
         data-bg-img="assets/images/bg/bg4.jpg"
         data-parallax-ratio="0.7"
       >
-        <div className="container" style={{ backgroundImage: `url(${background})` }}>
+        <div className="container" style={{ backgroundImage: `url(${Img1})` }}>
           <div className="row text-center">
             <div
               className="col-md-10 col-md-offset-1 wow fadeInLeft"
@@ -280,7 +282,13 @@ function Home() {
                   Cloud Computing 1 Year Offline
                 </span>
               </h2>
-              <a href="/" className="btn btn-lg btn-theme-colored mt-20">
+              <a
+                className="btn btn-lg btn-theme-colored mt-20"
+                href={Pdf}
+                download="Aarambh course content"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Explore
               </a>
             </div>

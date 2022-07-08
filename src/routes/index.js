@@ -8,6 +8,7 @@ import Placement from '../pages/Placemnet';
 import ISA from '../pages/ISA';
 import Aboutus from '../pages/Aboutus (1)';
 import Hire from '../pages/hire';
+import WhatsApp from '../components/Includes/whatsapp';
 
 function Routing() {
   return (
@@ -21,6 +22,7 @@ function Routing() {
       <Route path="/isa" element={<ISA />} />
       <Route path="/about" element={<Aboutus />} />
       <Route path="/register" element={<Form />} />
+      <Route path="/whatsapp" element={<WhatsApp />} />
 
     </Routes>
 
