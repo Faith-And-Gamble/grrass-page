@@ -51,7 +51,7 @@ body {
 
 /* --------------------------------- COMMUNICATION ---------------------- */
 .communication .whatsapp-card {
-  background-color: var(--light-color);
+  background-color: #e7ece7;
   border-radius: 10px;
   width: 300px;
   min-height: 400px;
@@ -100,4 +100,10 @@ body {
   border-radius: 10px;
   text-align: center;
   margin-top: 0.8em;
+}
+
+.text{  
+  width: 250px;
+  background-color: #c0fcc0;
+  height: 15px;
 }

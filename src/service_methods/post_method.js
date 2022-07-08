@@ -1,5 +1,5 @@
+/* eslint-disable no-useless-catch */
 import axios from 'axios';
-import Swal from 'sweetalert2';
 
 const postApi = async (url, payload, type, params = '') => {
   try {
@@ -12,10 +12,10 @@ const postApi = async (url, payload, type, params = '') => {
       },
       data: payload,
     });
-    Swal.fire('Form Submitted', 'Thank you', 'success');
+    // Swal.fire('Form Submitted', 'Thank you', 'success');
     return response;
   } catch (error) {
-    Swal.fire('Error occured', 'Please try again', 'error');
+    // Swal.fire('Error occured', 'Please try again', 'error');
     throw error;
   }
 };

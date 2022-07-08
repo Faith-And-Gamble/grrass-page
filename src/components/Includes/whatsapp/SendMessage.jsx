@@ -1,39 +1,10 @@
 /* eslint-disable react/no-unused-prop-types */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-
-import { Button, TextField, styled } from '@mui/material';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-
-const CssTextField = styled(TextField, {
-  shouldForwardProp: (props) => props !== 'focusColor',
-})(() => ({
-  // input label when focused
-  '& label.Mui-focused': {
-    color: '#7ed957',
-  },
-  // focused color for input with variant='outlined'
-  '& .MuiOutlinedInput-root': {
-    '&.Mui-focused fieldset': {
-      borderColor: '#7ed957',
-      fontSize: '0.9em',
-    },
-    borderRadius: '10px',
-  },
-}));
-
-const textFieldInputLabelStyle = {
-  fontSize: '0.9em',
-  alignSelf: 'center',
-  justifySelf: 'center',
-};
-
-// const textFieldStyle = {
-//   width: '230px',
-// };
+import './style.css';
 
 function SendMessages() {
-  const CHARACTER_LIMIT = 100;
+  // const CHARACTER_LIMIT = 100;
 
   const [numberEmptyError, setNumberEmptyError] = useState(false);
   const [messageEmptyError, setMessageEmptyError] = useState(false);
@@ -81,7 +52,7 @@ function SendMessages() {
       <div className="whatsapp-card app">
         <div className="title flex_middle">
           <div style={{ marginRight: '0.5em' }}>
-            <WhatsAppIcon />
+            <i className="fa fa-whatsapp" aria-hidden="true" />
           </div>
           <div>Send Message</div>
         </div>
@@ -95,72 +66,31 @@ function SendMessages() {
           <div className="errors-null">.</div>
         )}
         <div className="search_contact app">
-          {/* <CssTextField
-            error={numberEmptyError}
-            label="Mobile Number"
-            placeholder="Mobile Number"
-            name="mobileNumber"
-            value={mobileNumber}
-            onChange={onChange}
-            size="small"
-            style={{
-              margin: '1em 0em',
-            }}
-            inputProps={{
-              style: textFieldStyle,
-            }}
-            InputLabelProps={{
-              style: textFieldInputLabelStyle,
-            }}
-            required
-          /> */}
           {formData.mobileNumber}
         </div>
-        <div className="message app" style={{ marginTop: '1.5em' }}>
-          <CssTextField
-            multiline
-            maxRows={4}
+        <div className="app" style={{ marginTop: '1.5em' }}>
+          <textarea
             label="Message"
-            placeholder="Hi! Sending a message from React...."
-            size="small"
-            InputLabelProps={{
-              style: textFieldInputLabelStyle,
-            }}
-            inputProps={{
-              style: {
-                width: '230px',
-                height: '90px',
-              },
-              maxLength: CHARACTER_LIMIT,
-            }}
-            FormHelperTextProps={{
-              style: {
-                margin: 0,
-                padding: '0 0 0 5px',
-                fontSize: 10,
-              },
-            }}
+            className="text"
+            style={{ height: '200px' }}
+            placeholder="Hi! Sending a message from Aarambh...."
             name="message"
             value={message}
             onChange={onChange}
             required
-            error={message.length > CHARACTER_LIMIT - 1 || messageEmptyError}
-            helperText={
-              !(message.length > CHARACTER_LIMIT - 1)
-                ? `${message.length}/${CHARACTER_LIMIT}`
-                : 'Max length exceeded'
-            }
           />
         </div>
         <div style={{ marginTop: '1.5em' }}>
-          <Button
+          <button
             onClick={onSubmit}
+            type="button"
+            style={{ width: '90px', borderRadius: '10%', background: '#c0fcc0' }}
             variant="outlined"
             color="success"
             size="small"
           >
             Send
-          </Button>
+          </button>
         </div>
       </div>
     </div>
