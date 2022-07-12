@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className="main-content">
       <section
-        className="divider parallax layer-overlay back"
+        className="divider layer-overlay back"
         data-parallax-ratio="0.0"
         style={{ backgroundImage: `url(${Img2})` }}
       >

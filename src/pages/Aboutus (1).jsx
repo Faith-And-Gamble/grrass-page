@@ -69,6 +69,7 @@ function Aboutus() {
     <div>
       <section
         className="divider layer-overlay back"
+        data-parallax-ratio="0.0"
         style={{ backgroundImage: `url(${Img1})` }}
       >
         <div className="container pt-70 pb-50">

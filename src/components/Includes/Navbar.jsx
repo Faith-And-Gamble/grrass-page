@@ -14,7 +14,7 @@ function Navbar() {
               <li><Link to="/about">About</Link></li>
               <li><Link to="/placement">Pay After Placement</Link></li>
               <li><Link to="/isa">ISA</Link></li>
-              <li><Link to="/contact">Contact Us</Link></li>
+              <li><Link to="/faq">FAQ</Link></li>
               <li><Link to="/hire-form-us">Hire From Us</Link></li>
               <li><Link to="/register">Register here</Link></li>
 

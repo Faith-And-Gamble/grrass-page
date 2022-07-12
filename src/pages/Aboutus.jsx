@@ -3,7 +3,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 
-function Aboutus() {
+function FAQ() {
   return (
     <div>
       <section>
@@ -211,4 +211,4 @@ function Aboutus() {
   );
 }
 
-export default Aboutus;
+export default FAQ;

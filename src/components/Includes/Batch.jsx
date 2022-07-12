@@ -5,7 +5,7 @@ function Batch() {
     <div className="bg-silver-light sm-text-center p-0">
       <div className="container">
         <center>
-          <a href="/"><h6 className="sm-text-center">Upcomming Batch Details</h6></a>
+          <h6 className="sm-text-center">Upcomming Batch: 8th August 2022</h6>
         </center>
       </div>
     </div>
