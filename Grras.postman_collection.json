@@ -1,0 +1,85 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Grras",
+		"_postman_id": "086e400a-6e19-e38f-0d0f-4db81ebd57e4",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create a Lead and Activity (Async)",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "store_landing_inquery_api",
+			"request": {
+				"url": "https://grras.com/store_landing_inquery_api",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Akshit Gupta",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "aks@test.vom",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "9874587488",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "inquery_from_page",
+							"value": "19",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Any message",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "subject",
+							"value": "any subject",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "qualification",
+							"value": "B.tech",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "course",
+							"value": "323",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

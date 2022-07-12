@@ -1,18 +1,19 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
-import backgrounddivider from '../components/image/bgDowwn.jpg';
+// import backgrounddivider from '../components/image/bgDowwn.jpg';
+import Img1 from '../components/image/about.jpg';
 
 function ISA() {
   return (
     <div>
-      <section className="inner-header divider parallax layer-overlay overlay-dark-5" style={{ backgroundImage: `url(${backgrounddivider})` }}>
+      <section className="divider layer-overlay back" style={{ backgroundImage: `url(${Img1})` }}>
         <div className="container pt-70 pb-50">
           <div className="section-content">
             <div className="row">
               <div className="col-md-12">
-                <h4 className="title text-white">Income-share Agreement</h4>
+                <h4 className="title text-white">Income Share Agreement</h4>
                 <ul className="breadcrumb white">
-                  <li><a className="text-white" href="index-mp-layout1.html">Home</a></li>
+                  <li><a className="text-white" href="/">Home</a></li>
                   <li className="active">ISA</li>
                 </ul>
               </div>

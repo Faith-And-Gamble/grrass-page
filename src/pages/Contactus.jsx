@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unstable-nested-components */
+/* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
 import postApi from '../service_methods/post_method';
@@ -16,12 +18,44 @@ function Contactus() {
       [e.target.name]: e.target.value,
     });
   }
-  const payload = {};
   const handleSubmit = (event) => {
     event.preventDefault();
-    const url = 'http://localhost:8080/api/contact_us';
-    postApi(url, payload);
+    let formBody = [];
+    // eslint-disable-next-line guard-for-in
+    for (const property in formData) {
+      const encodedKey = encodeURIComponent(property);
+      const encodedValue = encodeURIComponent(formData[property]);
+      formBody.push(`${encodedKey}=${encodedValue}`);
+    }
+    formBody = formBody.join('&');
+    const url = 'https://grras.com/store_landing_inquery_api';
+    postApi(url, formBody);
   };
+  function SubmitButton() {
+    if (formData.name && formData.email && formData.mobile && formData.duration_days
+      && formData.message) {
+      return (
+        <button
+          type="submit"
+          className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
+          onClick={handleSubmit}
+        >
+          Apply Now
+        </button>
+      );
+    } else {
+      return (
+        <button
+          type="submit"
+          disabled
+          className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
+          onClick={handleSubmit}
+        >
+          Apply Now
+        </button>
+      );
+    }
+  }
   return (
     <section className="bg-lighter">
       <div className="container">
@@ -32,6 +66,7 @@ function Contactus() {
                 <h3 className="text-theme-colored mt-0 pt-5">Contact us</h3>
                 <h3 className="text-theme-colored mt-0 pt-5">You are very important to us. We will get back to you soon...!</h3>
                 <hr />
+                <h5 className="text-theme-colored mt-0 pt-5">All fields are mandatory</h5>
                 <form
                   id="job_apply_form"
                   name="job_apply_form"
@@ -87,7 +122,7 @@ function Contactus() {
                         <input
                           name="mobile"
                           className="form-control required email"
-                          type="mobile"
+                          type="number"
                           onChange={handleChange}
                           value={formData.mobile}
                           placeholder="Enter Mobile Number"
@@ -141,13 +176,14 @@ function Contactus() {
                       type="hidden"
                       value=""
                     />
-                    <button
+                    {/* <button
                       type="submit"
                       className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
                       onClick={handleSubmit}
                     >
                       Apply Now
-                    </button>
+                    </button> */}
+                    <SubmitButton />
                   </div>
                 </form>
               </div>

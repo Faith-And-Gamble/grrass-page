@@ -1,21 +1,23 @@
 /* eslint-disable no-useless-catch */
+import Swal from 'sweetalert2';
 import axios from 'axios';
 
-const postApi = async (url, payload, type, params = '') => {
+const postApi = async (url, payload) => {
   try {
     const response = await axios({
-      url: url + params,
+      url,
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'request-type': type,
       },
       data: payload,
     });
-    // Swal.fire('Form Submitted', 'Thank you', 'success');
+    Swal.fire('Data added!', '', 'success').then(() => {
+      window.location.reload();
+    });
     return response;
   } catch (error) {
-    // Swal.fire('Error occured', 'Please try again', 'error');
+    Swal.fire('Error occured', 'Please try again', 'error');
     throw error;
   }
 };

@@ -1,19 +1,24 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
-import backgrounddivider from '../components/image/bgDowwn.jpg';
+// import backgrounddivider from '../components/image/bgDowwn.jpg';
 import Query from './Query';
+import Img1 from '../components/image/placement.jpg';
 
 function Placement() {
   return (
-    <div>
-      <section className="inner-header divider parallax layer-overlay overlay-dark-5" style={{ backgroundImage: `url(${backgrounddivider})` }}>
+    <div className="main-content">
+      <section
+        className="layer-overlay back"
+        data-parallax-ratio="0.0"
+        style={{ backgroundImage: `url(${Img1})` }}
+      >
         <div className="container pt-70 pb-50">
           <div className="section-content">
             <div className="row">
               <div className="col-md-12">
                 <h4 className="title text-white">Placement</h4>
                 <ul className="breadcrumb white">
-                  <li><a className="text-white" href="index-mp-layout1.html">Home</a></li>
+                  <li><a className="text-white" href="/">Home</a></li>
                   <li className="active">Placement Details</li>
                 </ul>
               </div>

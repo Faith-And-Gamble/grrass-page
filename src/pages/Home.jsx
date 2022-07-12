@@ -2,8 +2,8 @@ import React from 'react';
 // import background from '../components/image/bgDowwn.jpg';
 import Query from './Query';
 import Pdf from '../components/course_content.pdf';
-import Img2 from '../components/image/img2.jpeg';
-import Img1 from '../components/image/img1.jpeg';
+import Img2 from '../components/image/banner.jpg';
+import Img1 from '../components/image/training.jpg';
 
 function Home() {
   return (
