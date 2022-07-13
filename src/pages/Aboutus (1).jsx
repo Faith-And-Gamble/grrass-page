@@ -96,7 +96,7 @@ function Aboutus() {
             <div className="row">
               <div className="col-md-12">
                 <h6 className="widget-title title-dots mt-90">
-                  <span style={{ fontSize: '16px' }}>
+                  <span style={{ fontSize: '15px' }}>
                     AARAMBH YOUR CAREER OUR MISSION
                   </span>
                 </h6>
@@ -360,7 +360,6 @@ function Aboutus() {
                 </h4>
               </div>
               <div className="col-md-6">
-                <h2 className="text-uppercase mt-0">GRRASS VIDEO</h2>
                 <h4 className="text-gray-dimgray font-weight-400">
                   <em>
                     Your first step towards a successful career in the tech

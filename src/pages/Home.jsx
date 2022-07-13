@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 // import background from '../components/image/bgDowwn.jpg';
 import Query from './Query';
@@ -179,7 +180,7 @@ function Home() {
               </div>
               <div className="col-md-6">
                 <h3 className="line-bottom line-height-1 mt-0 mt-sm-30">
-                  Welcome To GRRASS..!
+                  Welcome To GRRAS..!
                 </h3>
                 <p className="mb-30">
                   A Choice that makes a big difference in your career. Grras
@@ -217,7 +218,7 @@ function Home() {
                         AFFORDABLE FEES
                       </h4>
                       <p className="text-gray mb-5">
-                        We arent cheap , but we provide quality training with
+                        We aren't cheap , but we provide quality training with
                         justified fees structures.
                       </p>
                     </div>

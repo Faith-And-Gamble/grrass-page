@@ -71,24 +71,24 @@ function Query() {
                 with
                 us
               </h3>
-              <p>
-                B4, Second Floor, Bhaskar Flyover, opposite Dainik Bhaskar,
-                Vivek Vihar, Bajaj Nagar, Jaipur, Rajasthan 302015
-              </p>
               <ul className="list-icon theme-colored square mt-30">
                 <li>
                   <i className="fa fa-map-marker text-white" />
                   <span className="font-weight-600 text-black-222">
                     Address:
-                    {' '}
+                    {'  '}
+                    &nbsp;
                   </span>
-                  B4, Second Floor, Bhaskar Flyover Jaipur
+                  {' '}
+                  219, Himmat Nagar,
+                  Behind Kiran Sweets, Gopalpura Turn, Tonk Road, Jaipur, Rajasthan - 302018
                 </li>
                 <li>
                   <i className="fa fa-phone text-white" />
                   <span className="font-weight-600 text-black-222">
                     Phone:
                     {' '}
+                    &nbsp;
                   </span>
                   +91-9983340133
                 </li>
@@ -97,8 +97,9 @@ function Query() {
                   <span className="font-weight-600 text-black-222">
                     Email:
                     {' '}
+                    &nbsp;
                   </span>
-                  info@grras.com
+                  Aarambh@grrassolutions.in
                 </li>
               </ul>
             </div>

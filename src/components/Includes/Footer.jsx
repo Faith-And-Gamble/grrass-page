@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
+import Logo from '../image/aarlogog.jpeg';
 
 function Footer() {
   return (
@@ -12,7 +13,8 @@ function Footer() {
               <div className="widget dark">
                 {' '}
                 <img
-                  src="assets/images/imageslogo.png"
+                  // src="assets/images/imageslogo.png"
+                  src={Logo}
                   width="130px"
                   max-height="93px"
                   alt=""
@@ -108,7 +110,7 @@ function Footer() {
                     <a href="/">+91-9983340133</a>
                   </li>
                   <li>
-                    <a href="/">info@grras.com</a>
+                    <a href="/">Aarambh@grrassolutions.in</a>
                   </li>
                   <li>
                     <a href="/" className="lineheight-20">
