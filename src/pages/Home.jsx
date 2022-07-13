@@ -207,23 +207,6 @@ function Home() {
                     </div>
                   </div>
                   <div className="col-xs-12 col-sm-6 col-md-6">
-                    <div className="icon-box p-0 mb-30">
-                      <a
-                        className="icon icon-sm pull-left sm-pull-none flip bg-theme-colored mb-sm-15 mb-0 mr-10"
-                        href="/"
-                      >
-                        <i className="fa fa-credit-card text-white font-36" />
-                      </a>
-                      <h4 className="icon-box-title m-0 mb-5">
-                        AFFORDABLE FEES
-                      </h4>
-                      <p className="text-gray mb-5">
-                        We aren't cheap , but we provide quality training with
-                        justified fees structures.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-xs-12 col-sm-6 col-md-6">
                     <div className="icon-box p-0 mb-sm-30">
                       <a
                         className="icon icon-sm pull-left sm-pull-none flip bg-theme-colored mb-sm-15 mb-0 mr-10"
@@ -393,23 +376,6 @@ function Home() {
                       <p className="text-gray mb-5">
                         With a team of more than 100 + trainers we can provide
                         any time slot and any option
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-xs-12 col-sm-6 col-md-6">
-                    <div className="icon-box p-0 mb-30">
-                      <a
-                        className="icon icon-sm pull-left sm-pull-none flip bg-theme-colored mb-sm-15 mb-0 mr-10"
-                        href="/"
-                      >
-                        <i className="fa fa-credit-card text-white font-36" />
-                      </a>
-                      <h4 className="icon-box-title m-0 mb-5">
-                        AFFORDABLE FEES
-                      </h4>
-                      <p className="text-gray mb-5">
-                        We are not cheap , but we provide quality training with
-                        justified fees structures.
                       </p>
                     </div>
                   </div>
