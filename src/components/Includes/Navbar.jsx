@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
+import Logo from '../image/aarlogog.jpeg';
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
         <div className="container">
           <nav id="menuzord-right" className="menuzord default">
             <a className="mt-15 pull-left flip xs-pull-center " href="/">
-              <img src="assets/images/imageslogo.png" width="130px" max-height="93px" alt="" />
+              <img src={Logo} width="90px" max-height="83px" alt="" />
             </a>
             <ul className="menuzord-menu pull-right onepage-nav">
               <li><Link to="/about">About</Link></li>
