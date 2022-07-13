@@ -376,7 +376,7 @@ function Home() {
                 <p className="mb-30">
                   Pay after you get placed. Grras solutions pvt. ltd. provides
                   guidence for Job placement. We will be there with you at
-                  everys step of your hiurney.
+                  everys step of your journey.
                 </p>
                 <div className="row">
                   <div className="col-xs-12 col-sm-6 col-md-6">
