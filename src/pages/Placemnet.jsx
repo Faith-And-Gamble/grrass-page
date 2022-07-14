@@ -12,7 +12,7 @@ function Placement() {
         data-parallax-ratio="0.0"
         style={{ backgroundImage: `url(${Img1})` }}
       >
-        <div className="container pt-70 pb-50">
+        <div className="container pt-70 pb-70">
           <div className="section-content">
             <div className="row">
               <div className="col-md-12">

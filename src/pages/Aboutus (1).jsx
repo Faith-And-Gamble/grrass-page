@@ -11,7 +11,6 @@ function Aboutus() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    mobile: '',
     subject: '',
     message: '',
   });
@@ -38,7 +37,6 @@ function Aboutus() {
     if (
       formData.name
       && formData.email
-      && formData.mobile
       && formData.subject
       && formData.message
     ) {
@@ -66,13 +64,13 @@ function Aboutus() {
     }
   }
   return (
-    <div>
+    <div className="main-content">
       <section
         className="divider layer-overlay back"
         data-parallax-ratio="0.0"
         style={{ backgroundImage: `url(${Img1})` }}
       >
-        <div className="container pt-70 pb-50">
+        <div className="container pt-130 pb-50">
           <div className="section-content">
             <div className="row">
               <div className="col-md-12">
@@ -192,11 +190,13 @@ function Aboutus() {
             <hr />
             <section id="board_of_directors" className="">
               <div className="container custom-container">
-                <h1 className="module-heading text-center text-uppercase mt-0 mb-3">
+                <h2 className="module-heading text-center text-uppercase mt-0 mb-3">
                   Board of
                   {' '}
                   <span className="text-p">Directors Profile</span>
-                </h1>
+                </h2>
+                <hr />
+                <hr />
                 <div className="row">
                   <div className="col-sm-6">
                     <div
@@ -565,15 +565,19 @@ function Aboutus() {
                     </div>
                     <div className="col-sm-6">
                       <div className="form-group">
-                        <input
-                          type="text"
-                          placeholder="Enter Subject"
+                        <select
                           name="subject"
-                          value={formData.subject}
+                          className="form-control required"
                           onChange={handleChange}
-                          className="form-control"
-                          required
-                        />
+                          value={formData.subject}
+                        >
+                          <option>Select Degree</option>
+                          <option value="b.tech">B.Tech</option>
+                          <option value="m.tech">M.Tech</option>
+                          <option value="bca">BCA</option>
+                          <option value="mca">MCA</option>
+                          <option value="other">Other</option>
+                        </select>
                       </div>
                     </div>
                   </div>

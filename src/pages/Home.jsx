@@ -12,7 +12,7 @@ function Home() {
       <section
         className="divider layer-overlay back"
         data-parallax-ratio="0.0"
-        style={{ backgroundImage: `url(${Img2})` }}
+        style={{ backgroundImage: `url(${Img2})`, width: '100%' }}
       >
         <div className="container">
           <div className="row text-center">
@@ -36,31 +36,51 @@ function Home() {
               <div className="row" style={{ marginLeft: '120px' }}>
                 <ul className="working-process square theme-colored">
                   <li className="col-xs-12 col-sm-2">
-                    <a href="/" style={{ pointerEvents: 'none' }} target="_blank">
+                    <a
+                      href="/"
+                      style={{ pointerEvents: 'none' }}
+                      target="_blank"
+                    >
                       <i className="fa fa-book" />
                     </a>
                     <h5 className="text-white">Enroll</h5>
                   </li>
                   <li className="col-xs-12 col-sm-2">
-                    <a href="/" style={{ pointerEvents: 'none' }} target="_blank">
+                    <a
+                      href="/"
+                      style={{ pointerEvents: 'none' }}
+                      target="_blank"
+                    >
                       <i className="fa fa-shield" />
                     </a>
                     <h5 className="text-white">Selection</h5>
                   </li>
                   <li className="col-xs-12 col-sm-2">
-                    <a href="/" style={{ pointerEvents: 'none' }} target="_blank">
+                    <a
+                      href="/"
+                      style={{ pointerEvents: 'none' }}
+                      target="_blank"
+                    >
                       <i className="fa fa-calendar" />
                     </a>
                     <h5 className="text-white">Training</h5>
                   </li>
                   <li className="col-xs-12 col-sm-2">
-                    <a href="/" style={{ pointerEvents: 'none' }} target="_blank">
+                    <a
+                      href="/"
+                      style={{ pointerEvents: 'none' }}
+                      target="_blank"
+                    >
                       <i className="fa fa-calendar" />
                     </a>
                     <h5 className="text-white">Start Work</h5>
                   </li>
                   <li className="col-xs-12 col-sm-2">
-                    <a href="/" style={{ pointerEvents: 'none' }} target="_blank">
+                    <a
+                      href="/"
+                      style={{ pointerEvents: 'none' }}
+                      target="_blank"
+                    >
                       <i className="fa fa-calendar" />
                     </a>
                     <h5 className="text-white">Pay after Placement</h5>
@@ -79,7 +99,7 @@ function Home() {
                   data-wow-delay="0.3s"
                 >
                   <span className="bharat ">
-                    DevOps & Cloud Computing 1 year OFFLINE PROGRAM.
+                    DevOps & Cloud Computing 26 weeks classroom training.
                   </span>
                 </p>
                 <a
@@ -183,10 +203,11 @@ function Home() {
                   Welcome To GRRAS..!
                 </h3>
                 <p className="mb-30">
-                  A Choice that makes a big difference in your career. Grras
-                  Solutions Pvt. Ltd is committed to helping its students to
-                  reach their goals and their training experiences, by providing
-                  the innovative surroundings and faculties.
+                  Make the choice that matters! Grras Solutions is a pioneer in
+                  its field, ensuring students get the maximum benefit from
+                  getting trained and certified with us. We provide world class
+                  facilities to students including innovative surroundings and
+                  facilities.
                 </p>
                 <div className="row">
                   <div className="col-xs-12 col-sm-6 col-md-6">
@@ -198,11 +219,32 @@ function Home() {
                         <i className="fa fa-clock-o  text-white font-36" />
                       </a>
                       <h4 className="icon-box-title m-0 mb-5">
-                        TIME FLEXIBILITY
+                        Dedicated Trainers
                       </h4>
+                      <hr />
                       <p className="text-gray mb-5">
-                        With a team of more than 100 + trainers we can provide
-                        any time slot and any option
+                        With Grras Solutions, what you get is the assurance of
+                        having learnt from the very best in the field. With the
+                        right guidance, you can dream big and achieve bigger.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-xs-12 col-sm-6 col-md-6">
+                    <div className="icon-box p-0">
+                      <a
+                        className="icon icon-sm pull-left sm-pull-none flip bg-theme-colored mb-sm-15 mb-0 mr-10"
+                        href="/"
+                      >
+                        <i className="fa fa-thumbs-up  text-white font-36" />
+                      </a>
+                      <h6 className="icon-box-title m-0 mb-5">
+                        100% Placement Oriented Training
+                      </h6>
+                      <hr />
+                      <p className="text-gray mb-4">
+                        We give you 100% placement oriented training with our
+                        Pay After Placement program to help you jump right onto
+                        the wagon leading to success. No more delays in winning!
                       </p>
                     </div>
                   </div>
@@ -215,12 +257,14 @@ function Home() {
                         <i className="fa fa-certificate text-white font-36" />
                       </a>
                       <h4 className="icon-box-title m-0 mb-5">
-                        Certified Consultent
+                        Transparent Terms
                       </h4>
-                      <p className="text-gray mb-5">
-                        Learning various technologies under the supervision of
-                        well trained , expereinced and certified trainers of
-                        GRRAS
+                      <hr />
+                      <p className="text-gray mb-2">
+                        We help you rise high in your life by giving you
+                        transparent terms and conditions. Everything has a glass
+                        ceiling and you will have knowledge to everything at all
+                        times.
                       </p>
                     </div>
                   </div>
@@ -230,14 +274,17 @@ function Home() {
                         className="icon icon-sm pull-left sm-pull-none flip bg-theme-colored mb-sm-15 mb-0 mr-10"
                         href="/"
                       >
-                        <i className="fa fa-expeditedssl  text-white font-36" />
+                        <i className="fa fa-graduation-cap  text-white font-36" />
                       </a>
                       <h4 className="icon-box-title m-0 mb-5">
-                        FULL HANDS-ON TRAINING
+                        Hands-on Training
                       </h4>
+                      <hr />
                       <p className="text-gray mb-5">
-                        Grras focuses on learning modules with practical
-                        examples ,live environment and real time projects
+                        Learn by doing and not reading. It is when we do
+                        something that we retain it the most and that is our
+                        policy at Grras Solutions. Work on live projects for the
+                        best understanding.
                       </p>
                     </div>
                   </div>
@@ -295,51 +342,49 @@ function Home() {
                       <a href="/">
                         <i className="fa fa-check-square-o mr-10 text-black-light" />
                         {' '}
-                        6 months hands on practical technical training
+                        1-year hands-on training via live projects
                       </a>
                     </li>
                     <li>
                       <a href="/">
                         <i className="fa fa-check-square-o mr-10 text-black-light" />
                         {' '}
-                        Become and expert in futuristic technologies like Linux,
-                        Ansible and Automation, AWS, AZURE, DevOps, Docker and
-                        Kubernetes, Jenkins, GIT HUB, terraform, CI-CD pipleine.
+                        Become an expert in DevOps and Cloud Computing
                       </a>
                     </li>
                     <li>
                       <a href="/">
                         <i className="fa fa-check-square-o mr-10 text-black-light" />
                         {' '}
-                        Regular assesment and analysis of candidates.
+                        100% job placement guarantee
                       </a>
                     </li>
                     <li>
                       <a href="/">
                         <i className="fa fa-check-square-o mr-10 text-black-light" />
                         {' '}
-                        Interview preparation
+                        Interview preparation + soft skills and personality development sessions
                       </a>
                     </li>
                     <li>
                       <a href="/">
                         <i className="fa fa-check-square-o mr-10 text-black-light" />
                         {' '}
-                        Exposure of company environment.
+                        Regular assessments and assignments
                       </a>
                     </li>
                     <li>
                       <a href="/">
                         <i className="fa fa-check-square-o mr-10 text-black-light" />
                         {' '}
-                        Interview conduction.
+                        Exposure to real-world working
                       </a>
                     </li>
                     <li>
                       <a href="/">
                         <i className="fa fa-check-square-o mr-10 text-black-light" />
                         {' '}
-                        ISA norms to be started after candidate gets placed.
+                        Crystal clear norms and conditions.
                       </a>
                     </li>
                     <li>
@@ -354,14 +399,34 @@ function Home() {
               </div>
               <div className="col-md-6">
                 <h3 className="line-bottom line-height-1 mt-0 mt-sm-30">
-                  Pay after placement and ISA agreement.
+                  Pay after Placement
                 </h3>
                 <p className="mb-30">
-                  Pay after you get placed. Grras solutions pvt. ltd. provides
-                  guidence for Job placement. We will be there with you at
-                  everys step of your journey.
+                  Pay only if you get a job with package more than 3 lakhs per
+                  annum. Grras Solutions’ Pay After Placement Program help you
+                  find the right path to begin your career in DevOps & Cloud
+                  Computing. We guide you to success!
                 </p>
                 <div className="row">
+                  <div className="col-xs-12 col-sm-6 col-md-6">
+                    <div className="icon-box p-0">
+                      <a
+                        className="icon icon-sm pull-left sm-pull-none flip bg-theme-colored mb-sm-15 mb-0 mr-10"
+                        href="/"
+                      >
+                        <i className="fa fa-graduation-cap  text-white font-36" />
+                      </a>
+                      <h6 className="icon-box-title m-0 mb-5">
+                        Systematic & Easy Instalments
+                      </h6>
+                      <hr />
+                      <p className="text-gray mb-5">
+                        Even when you start paying, your payments will be in a
+                        monthly format for a fixed period of time, all of which
+                        will be pre-decided and disclosed.
+                      </p>
+                    </div>
+                  </div>
                   <div className="col-xs-12 col-sm-6 col-md-6">
                     <div className="icon-box p-0 mb-30">
                       <a
@@ -371,11 +436,32 @@ function Home() {
                         <i className="fa fa-clock-o  text-white font-36" />
                       </a>
                       <h4 className="icon-box-title m-0 mb-5">
-                        TIME FLEXIBILITY
+                        Job Oriented Program
                       </h4>
+                      <hr />
                       <p className="text-gray mb-5">
-                        With a team of more than 100 + trainers we can provide
-                        any time slot and any option
+                        Get 100% placement oriented training by us and stay at
+                        ease when it comes to settling down. Our experts will
+                        help you find the right job.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-xs-12 col-sm-6 col-md-6">
+                    <div className="icon-box p-0">
+                      <a
+                        className="icon icon-sm pull-left sm-pull-none flip bg-theme-colored mb-sm-15 mb-0 mr-10"
+                        href="/"
+                      >
+                        <i className="fa fa-thumbs-up  text-white font-36" />
+                      </a>
+                      <h4 className="icon-box-title m-0 mb-5">
+                        Seasoned Trainer
+                      </h4>
+                      <hr />
+                      <p className="text-gray mb-4">
+                        You will be trained by one of the best in the country
+                        with 13+ years of training experience in DevOps and
+                        Cloud Computing.
                       </p>
                     </div>
                   </div>
@@ -388,29 +474,13 @@ function Home() {
                         <i className="fa fa-certificate text-white font-36" />
                       </a>
                       <h4 className="icon-box-title m-0 mb-5">
-                        Certified Consultent
+                        Zero Upfront Fee
                       </h4>
-                      <p className="text-gray mb-5">
-                        Learning various technologies under the supervision of
-                        well trained , expereinced and certified trainers of
-                        GRRAS
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-xs-12 col-sm-6 col-md-6">
-                    <div className="icon-box p-0">
-                      <a
-                        className="icon icon-sm pull-left sm-pull-none flip bg-theme-colored mb-sm-15 mb-0 mr-10"
-                        href="/"
-                      >
-                        <i className="fa fa-expeditedssl  text-white font-36" />
-                      </a>
-                      <h4 className="icon-box-title m-0 mb-5">
-                        FULL HANDS-ON TRAINING
-                      </h4>
-                      <p className="text-gray mb-5">
-                        Grras focuses on learning modules with practical
-                        examples ,live environment and real time projects
+                      <hr />
+                      <p className="text-gray mb-2">
+                        Your training will begin at zero upfront fee. Thus, you
+                        will not be charged anything until you start earning
+                        from the job that we help you find.
                       </p>
                     </div>
                   </div>

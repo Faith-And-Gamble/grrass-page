@@ -23,12 +23,6 @@ function Appbar() {
 
                 </li>
                 <li className="m-0 pl-10 pr-10">
-                  {' '}
-                  <i className="fa fa-clock-o text-theme-colored" />
-                  {' '}
-                  Mon-Fri 9:00am - 9:00pm
-                </li>
-                <li className="m-0 pl-10 pr-10">
                   <ButtonMailto label="Write us an E-Mail" mailto="mailto:Aarambh@grrassolutions.in">
                     <i className="fa fa-envelope-o text-theme-colored" />
                     Aarambh@grrassolutions.in

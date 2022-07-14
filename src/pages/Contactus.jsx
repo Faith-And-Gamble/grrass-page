@@ -139,8 +139,7 @@ function Contactus() {
               <div id="section-five" className="mb-50">
                 <h3>Q5. Is the program available via online class too?</h3>
                 <p className="mb-20">
-                  The batch will have no more than 30 students to keep the class
-                  size small and compact.
+                  No, for online training, we have another program. Please, contact our team.
                 </p>
               </div>
               <div id="section-five" className="mb-50">

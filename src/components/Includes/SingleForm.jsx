@@ -76,7 +76,7 @@ function Form() {
             <div className="row">
               <div className="col">
                 <div className="border-1px p-30 mb-0">
-                  <h3 className="text-theme-colored mt-0 pt-5">Register here</h3>
+                  <h3 className="text-theme-colored mt-0 pt-5">Contact us</h3>
                   <hr />
                   <h5 className="text-theme-colored mt-0 pt-5">All fields are mandatory</h5>
                   <form

@@ -7,7 +7,7 @@ function ISA() {
   return (
     <div>
       <section className="divider layer-overlay back" style={{ backgroundImage: `url(${Img1})` }}>
-        <div className="container pt-70 pb-50">
+        <div className="container pt-130 pb-50">
           <div className="section-content">
             <div className="row">
               <div className="col-md-12">
