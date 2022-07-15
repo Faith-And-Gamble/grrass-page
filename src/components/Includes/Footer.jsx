@@ -88,10 +88,7 @@ function Footer() {
                     <a href="/about">About Us</a>
                   </li>
                   <li>
-                    <a href="/placement">Pay after Payment</a>
-                  </li>
-                  <li>
-                    <a href="/isa ">ISA</a>
+                    <a href="/placement">Pay after Placement</a>
                   </li>
                   <li>
                     <a href="/contact">Contact</a>

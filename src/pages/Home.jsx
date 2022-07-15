@@ -1,12 +1,27 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
+import React, { useState } from 'react';
+import { Modal } from 'react-responsive-modal';
 // import background from '../components/image/bgDowwn.jpg';
 import Query from './Query';
-import Pdf from '../components/course_content.pdf';
+// import Pdf from '../components/course_content.pdf';
 import Img2 from '../components/image/banner.jpg';
 import Img1 from '../components/image/training.jpg';
+import 'react-responsive-modal/styles.css';
+import MForm from '../components/Includes/ModalForm';
 
 function Home() {
+  const [modalDisplay, setModalDisplay] = useState(false);
+  const onOpenModal = () => {
+    setModalDisplay(true);
+  };
+
+  const onCloseModal = () => {
+    setModalDisplay(false);
+  };
+  const styles = {
+    fontFamily: 'sans-serif',
+    textAlign: 'center',
+  };
   return (
     <div className="main-content">
       <section
@@ -102,7 +117,7 @@ function Home() {
                     DevOps & Cloud Computing 26 weeks classroom training.
                   </span>
                 </p>
-                <a
+                {/* <a
                   className="btn btn-colored btn-flat btn-theme-colored ajaxload-popup pb-10"
                   href={Pdf}
                   download="Aarambh course content"
@@ -110,7 +125,13 @@ function Home() {
                   rel="noreferrer"
                 >
                   Explore
-                </a>
+                </a> */}
+                <button type="button" className="btn btn-colored btn-flat btn-theme-colored ajaxload-popup pb-10" onClick={onOpenModal}>Explore</button>
+                <div style={styles}>
+                  <Modal open={modalDisplay} onClose={onCloseModal}>
+                    <MForm />
+                  </Modal>
+                </div>
               </div>
             </div>
           </div>
@@ -218,9 +239,9 @@ function Home() {
                       >
                         <i className="fa fa-clock-o  text-white font-36" />
                       </a>
-                      <h4 className="icon-box-title m-0 mb-5">
+                      <h6 className="icon-box-title m-0 mb-5">
                         Dedicated Trainers
-                      </h4>
+                      </h6>
                       <hr />
                       <p className="text-gray mb-5">
                         With Grras Solutions, what you get is the assurance of
@@ -238,7 +259,7 @@ function Home() {
                         <i className="fa fa-thumbs-up  text-white font-36" />
                       </a>
                       <h6 className="icon-box-title m-0 mb-5">
-                        100% Placement Oriented Training
+                        100% Placement Training
                       </h6>
                       <hr />
                       <p className="text-gray mb-4">
@@ -256,9 +277,9 @@ function Home() {
                       >
                         <i className="fa fa-certificate text-white font-36" />
                       </a>
-                      <h4 className="icon-box-title m-0 mb-5">
+                      <h6 className="icon-box-title m-0 mb-5">
                         Transparent Terms
-                      </h4>
+                      </h6>
                       <hr />
                       <p className="text-gray mb-2">
                         We help you rise high in your life by giving you
@@ -276,9 +297,9 @@ function Home() {
                       >
                         <i className="fa fa-graduation-cap  text-white font-36" />
                       </a>
-                      <h4 className="icon-box-title m-0 mb-5">
+                      <h6 className="icon-box-title m-0 mb-5">
                         Hands-on Training
-                      </h4>
+                      </h6>
                       <hr />
                       <p className="text-gray mb-5">
                         Learn by doing and not reading. It is when we do
@@ -307,13 +328,13 @@ function Home() {
               data-wow-delay="0.3s"
             >
               <h2 className="font-36 text-uppercase text-white font-weight-600 mt-0">
-                Devops &
+                Devops & CLOUD COMPUTING
                 <span className="text-theme-colored">
                   {' '}
-                  Cloud Computing 1 Year Offline
+                  26 WEEKS CLASSROOM TRAINING.
                 </span>
               </h2>
-              <a
+              {/* <a
                 className="btn btn-lg btn-theme-colored mt-20"
                 href={Pdf}
                 download="Aarambh course content"
@@ -321,7 +342,7 @@ function Home() {
                 rel="noreferrer"
               >
                 Explore
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -435,9 +456,9 @@ function Home() {
                       >
                         <i className="fa fa-clock-o  text-white font-36" />
                       </a>
-                      <h4 className="icon-box-title m-0 mb-5">
+                      <h6 className="icon-box-title m-0 mb-5">
                         Job Oriented Program
-                      </h4>
+                      </h6>
                       <hr />
                       <p className="text-gray mb-5">
                         Get 100% placement oriented training by us and stay at
@@ -454,9 +475,9 @@ function Home() {
                       >
                         <i className="fa fa-thumbs-up  text-white font-36" />
                       </a>
-                      <h4 className="icon-box-title m-0 mb-5">
+                      <h6 className="icon-box-title m-0 mb-5">
                         Seasoned Trainer
-                      </h4>
+                      </h6>
                       <hr />
                       <p className="text-gray mb-4">
                         You will be trained by one of the best in the country
@@ -473,9 +494,9 @@ function Home() {
                       >
                         <i className="fa fa-certificate text-white font-36" />
                       </a>
-                      <h4 className="icon-box-title m-0 mb-5">
+                      <h6 className="icon-box-title m-0 mb-5">
                         Zero Upfront Fee
-                      </h4>
+                      </h6>
                       <hr />
                       <p className="text-gray mb-2">
                         Your training will begin at zero upfront fee. Thus, you

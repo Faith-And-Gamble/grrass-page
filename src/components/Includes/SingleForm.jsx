@@ -24,16 +24,8 @@ function Form() {
   const handleSubmit = (event) => {
     setLoading(true);
     event.preventDefault();
-    let formBody = [];
-    // eslint-disable-next-line guard-for-in
-    for (const property in formData) {
-      const encodedKey = encodeURIComponent(property);
-      const encodedValue = encodeURIComponent(formData[property]);
-      formBody.push(`${encodedKey}=${encodedValue}`);
-    }
-    formBody = formBody.join('&');
     const url = 'https://grras.com/store_landing_inquery_api';
-    postApi(url, formBody);
+    postApi(url, formData);
     setLoading(false);
   };
   function SubmitButton() {
@@ -116,7 +108,7 @@ function Form() {
                             name="email"
                             className="form-control required email"
                             type="email"
-                            placeholder="Enter Email"
+                            placeholder="Enter a valid Email"
                             onChange={handleChange}
                             value={formData.email}
                           />
