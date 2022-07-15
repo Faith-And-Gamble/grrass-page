@@ -6,6 +6,11 @@
 import React, { useState } from 'react';
 import postApi from '../service_methods/post_method';
 import Img1 from '../components/image/about.jpg';
+import Img3 from '../components/image/1.jpeg';
+import Img4 from '../components/image/2.jpeg';
+import Img5 from '../components/image/3.jpeg';
+import Img6 from '../components/image/4.jpeg';
+import Img7 from '../components/image/5.jpeg';
 
 function Aboutus() {
   const [formData, setFormData] = useState({
@@ -132,14 +137,14 @@ function Aboutus() {
                   <div className="col-sm-6 col-md-6 pr-5 pr-sm-15 mb-sm-10">
                     <img
                       className="img-fullwidth"
-                      src="assets/images/CI.png"
+                      src={Img6}
                       alt=""
                     />
                   </div>
                   <div className="col-sm-6 col-md-6 pl-5 pl-sm-15">
                     <img
                       className="img-fullwidth"
-                      src="assets/images/devops.png"
+                      src={Img4}
                       alt=""
                     />
                   </div>
@@ -148,30 +153,14 @@ function Aboutus() {
                   <div className="col-sm-6 col-md-6 pr-5 pr-sm-15 mb-sm-10">
                     <img
                       className="img-fullwidth"
-                      src="assets/images/docker.png"
+                      src={Img5}
                       alt=""
                     />
                   </div>
                   <div className="col-sm-6 col-md-6 pl-5 pl-sm-15">
                     <img
                       className="img-fullwidth"
-                      src="assets/images/kuber.png"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-6 col-md-6 pr-5 pr-sm-15 mb-sm-10">
-                    <img
-                      className="img-fullwidth"
-                      src="assets/images/aws2.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="col-sm-6 col-md-6 pl-5 pl-sm-15">
-                    <img
-                      className="img-fullwidth"
-                      src="assets/images/linux.jpg"
+                      src={Img7}
                       alt=""
                     />
                   </div>
