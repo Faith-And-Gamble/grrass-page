@@ -5,7 +5,7 @@ import { Modal } from 'react-responsive-modal';
 import Query from './Query';
 // import Pdf from '../components/course_content.pdf';
 import Img2 from '../components/image/banner.jpg';
-import Img1 from '../components/image/training.jpg';
+import Img1 from '../components/image/slider.jpeg';
 import 'react-responsive-modal/styles.css';
 import MForm from '../components/Includes/ModalForm';
 
@@ -315,39 +315,26 @@ function Home() {
           </div>
         </div>
       </section>
-      <section
-        className="divider parallax layer-overlay overlay-dark-6"
-        data-bg-img="assets/images/bg/bg4.jpg"
-        data-parallax-ratio="0.7"
-      >
-        <div className="container" style={{ backgroundImage: `url(${Img1})` }}>
-          <div className="row text-center">
-            <div
-              className="col-md-10 col-md-offset-1 wow fadeInLeft"
-              data-wow-duration="1s"
-              data-wow-delay="0.3s"
-            >
-              <h2 className="font-36 text-uppercase text-white font-weight-600 mt-0">
-                Devops & CLOUD COMPUTING
-                <span className="text-theme-colored">
-                  {' '}
-                  26 WEEKS CLASSROOM TRAINING.
-                </span>
-              </h2>
-              {/* <a
-                className="btn btn-lg btn-theme-colored mt-20"
-                href={Pdf}
-                download="Aarambh course content"
-                target="_blank"
-                rel="noreferrer"
+      <div className="main-content">
+        <section
+          className="divider parallax dark"
+        // data-bg-img="assets/images/bg/bg4.jpg"
+          data-parallax-ratio="0.0"
+        >
+          <div className="container">
+
+            <div className="row text-center">
+              <div
+                className="col-md-12 col-md-offset-0.5 wow fadeInLeft"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
               >
-                Explore
-              </a> */}
+                <img src={Img1} alt="" />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-
+        </section>
+      </div>
       <br />
       <section className="bg-lighter">
         <div className="container">
