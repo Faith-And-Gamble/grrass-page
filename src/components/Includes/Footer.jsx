@@ -91,7 +91,7 @@ function Footer() {
                     <a href="/placement">Pay after Placement</a>
                   </li>
                   <li>
-                    <a href="/contact">Contact</a>
+                    <a href="/faq">FAQ</a>
                   </li>
                 </ul>
               </div>

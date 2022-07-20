@@ -139,34 +139,18 @@ function Aboutus() {
               <div className="col-md-6">
                 <div className="row mb-10">
                   <div className="col-sm-6 col-md-6 pr-5 pr-sm-15 mb-sm-10">
-                    <img
-                      className="img-fullwidth"
-                      src={Img6}
-                      alt=""
-                    />
+                    <img className="img-fullwidth" src={Img6} alt="" />
                   </div>
                   <div className="col-sm-6 col-md-6 pl-5 pl-sm-15">
-                    <img
-                      className="img-fullwidth"
-                      src={Img4}
-                      alt=""
-                    />
+                    <img className="img-fullwidth" src={Img4} alt="" />
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-sm-6 col-md-6 pr-5 pr-sm-15 mb-sm-10">
-                    <img
-                      className="img-fullwidth"
-                      src={Img5}
-                      alt=""
-                    />
+                    <img className="img-fullwidth" src={Img5} alt="" />
                   </div>
                   <div className="col-sm-6 col-md-6 pl-5 pl-sm-15">
-                    <img
-                      className="img-fullwidth"
-                      src={Img7}
-                      alt=""
-                    />
+                    <img className="img-fullwidth" src={Img7} alt="" />
                   </div>
                 </div>
               </div>
@@ -341,7 +325,7 @@ function Aboutus() {
             <div className="row">
               <div className="col-md-12">
                 <h4 className="widget-title title-dots mt-30">
-                  <span>CORPORATE VIDEO</span>
+                  <span>Aarambh VIDEO</span>
                 </h4>
               </div>
               <div className="col-md-6">
@@ -366,7 +350,7 @@ function Aboutus() {
                   <iframe
                     width="560"
                     height="315"
-                    src="https://www.youtube.com/embed/lmRMvVcnGNo"
+                    src="https://www.youtube.com/embed/SVJFPcX88yg"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -73,7 +73,7 @@ function SendMessages() {
             label="Message"
             className="text"
             style={{ height: '200px' }}
-            placeholder="Hi! Sending a message from Aarambh...."
+            placeholder="Hi! Sending a message to Aarambh...."
             name="message"
             value={message}
             onChange={onChange}
