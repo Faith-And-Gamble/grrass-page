@@ -6,49 +6,6 @@ import postApi from '../service_methods/post_method';
 import FaqImage from '../components/image/faq.jpeg';
 
 function FAQ() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    mobile: '',
-    duration_days: '',
-    message: '',
-  });
-  function handleChange(e) {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  }
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const url = 'https://grras.com/store_landing_inquery_api';
-    postApi(url, formData);
-  };
-  function SubmitButton() {
-    if (formData.name && formData.email && formData.mobile && formData.duration_days
-      && formData.message) {
-      return (
-        <button
-          type="submit"
-          className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
-          onClick={handleSubmit}
-        >
-          Apply Now
-        </button>
-      );
-    } else {
-      return (
-        <button
-          type="submit"
-          disabled
-          className="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10"
-          onClick={handleSubmit}
-        >
-          Apply Now
-        </button>
-      );
-    }
-  }
   return (
     <>
       <section

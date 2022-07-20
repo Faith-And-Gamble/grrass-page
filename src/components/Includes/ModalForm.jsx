@@ -14,6 +14,10 @@ export default function MForm() {
     mobile: '',
     email: '',
     message: '',
+    inquery_form_page: 7,
+    course: '',
+    subject: '',
+    qualification: '',
   });
 
   const updateForm = (e) => {

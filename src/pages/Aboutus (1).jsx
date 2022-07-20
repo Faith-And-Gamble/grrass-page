@@ -18,6 +18,10 @@ function Aboutus() {
     email: '',
     subject: '',
     message: '',
+    qualification: '',
+    inquery_form_page: 7,
+    mobile: '',
+    course: '',
   });
   function handleChange(e) {
     setFormData({

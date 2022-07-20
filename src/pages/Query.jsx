@@ -10,6 +10,8 @@ function Query() {
     mobile: '',
     qualification: '',
     message: '',
+    inquery_form_page: 7,
+    course: '',
   });
   function handleChange(e) {
     setFormData({
