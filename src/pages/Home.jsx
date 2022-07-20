@@ -8,8 +8,13 @@ import Img2 from '../components/image/banner.jpg';
 import Img1 from '../components/image/slider.jpeg';
 import 'react-responsive-modal/styles.css';
 import MForm from '../components/Includes/ModalForm';
+import useWindowDimensions from '../components/Includes/DeviceWidth';
 
 function Home() {
+  const { height, width } = useWindowDimensions();
+  // let st = (width > 400) ? st = '120px' : st = '0px';
+  const res = width > 400 ? '120px' : '0px';
+  console.log(height, res);
   const [modalDisplay, setModalDisplay] = useState(false);
   const onOpenModal = () => {
     setModalDisplay(true);
@@ -48,7 +53,7 @@ function Home() {
               </h2>
               <p className="text-white">How this Program Work?</p>
 
-              <div className="row" style={{ marginLeft: '120px' }}>
+              <div className="row" style={{ marginLeft: res }}>
                 <ul className="working-process square theme-colored">
                   <li className="col-xs-12 col-sm-2">
                     <a
