@@ -3,8 +3,9 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
 import postApi from '../service_methods/post_method';
+import FaqImage from '../components/image/faq.jpeg';
 
-function Contactus() {
+function FAQ() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -53,10 +54,7 @@ function Contactus() {
       <section
         className="divider parallax layer-overlay overlay"
         data-parallax-ratio="0.0"
-        style={{
-          backgroundImage: `url(
-            https://i0.wp.com/cms.babbel.news/wp-content/uploads/2022/05/Spanish_UpsideDown_Punctuation.png?resize=640%2C360)`,
-        }}
+        style={{ backgroundImage: `url(${FaqImage})` }}
       >
         <div className="container pt-70 pb-50">
           <div className="section-content">
@@ -237,4 +235,4 @@ function Contactus() {
   );
 }
 
-export default Contactus;
+export default FAQ;
