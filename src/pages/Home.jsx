@@ -12,8 +12,7 @@ import useWindowDimensions from '../components/Includes/DeviceWidth';
 
 function Home() {
   const { height, width } = useWindowDimensions();
-  // let st = (width > 400) ? st = '120px' : st = '0px';
-  const res = width > 400 ? '120px' : '0px';
+  const res = width > 450 ? '120px' : '0px';
   console.log(height, res);
   const [modalDisplay, setModalDisplay] = useState(false);
   const onOpenModal = () => {
