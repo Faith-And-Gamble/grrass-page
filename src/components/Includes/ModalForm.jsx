@@ -14,8 +14,8 @@ export default function MForm() {
     mobile: '',
     email: '',
     message: '',
-    inquery_form_page: 7,
-    course: '',
+    inquery_from_page: 7,
+    course: 323,
     subject: '',
     qualification: '',
   });
@@ -64,7 +64,7 @@ export default function MForm() {
       {/* <form> */}
 
       <div className="field1">
-        <label> Please provide some information </label>
+        <label> Please provide some information to download brochure </label>
 
         <input
           type="text"

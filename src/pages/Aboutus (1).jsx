@@ -19,9 +19,9 @@ function Aboutus() {
     subject: '',
     message: '',
     qualification: '',
-    inquery_form_page: 7,
+    inquery_from_page: 7,
     mobile: '',
-    course: '',
+    course: 323,
   });
   function handleChange(e) {
     setFormData({

@@ -14,8 +14,8 @@ function Form() {
     mobile: '',
     qualification: '',
     message: '',
-    inquery_form_page: 7,
-    course: '',
+    inquery_from_page: 7,
+    course: 323,
   });
   function handleChange(e) {
     setFormData({
