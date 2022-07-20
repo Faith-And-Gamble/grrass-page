@@ -12,7 +12,7 @@ function Form() {
     name: '',
     email: '',
     mobile: '',
-    duration_days: '',
+    qualification: '',
     message: '',
   });
   function handleChange(e) {
@@ -29,7 +29,7 @@ function Form() {
     setLoading(false);
   };
   function SubmitButton() {
-    if (formData.name && formData.email && formData.mobile && formData.duration_days
+    if (formData.name && formData.email && formData.mobile && formData.qualification
       && formData.message) {
       return (
         <button
@@ -142,10 +142,10 @@ function Form() {
                             <small>*</small>
                           </label>
                           <select
-                            name="duration_days"
+                            name="qualification"
                             className="form-control required"
                             onChange={handleChange}
-                            value={formData.duration_days}
+                            value={formData.qualification}
                           >
                             <option>Select</option>
                             <option value="b.tech">B.Tech</option>
@@ -169,7 +169,6 @@ function Form() {
                         rows="5"
                         onChange={handleChange}
                         value={formData.message}
-                        placeholder="Your cover letter/message sent to the employer"
                       />
                     </div>
 

@@ -20,16 +20,8 @@ function Contactus() {
   }
   const handleSubmit = (event) => {
     event.preventDefault();
-    let formBody = [];
-    // eslint-disable-next-line guard-for-in
-    for (const property in formData) {
-      const encodedKey = encodeURIComponent(property);
-      const encodedValue = encodeURIComponent(formData[property]);
-      formBody.push(`${encodedKey}=${encodedValue}`);
-    }
-    formBody = formBody.join('&');
     const url = 'https://grras.com/store_landing_inquery_api';
-    postApi(url, formBody);
+    postApi(url, formData);
   };
   function SubmitButton() {
     if (formData.name && formData.email && formData.mobile && formData.duration_days
