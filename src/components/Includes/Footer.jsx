@@ -155,14 +155,6 @@ function Footer() {
                 Copyright &copy; Aarambh. All Rights Reserved
               </p>
             </div>
-            <a
-              href="https://wa.me/+919983340133"
-              className="whatsapp_float"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa fa-whatsapp whatsapp-icon" />
-            </a>
           </div>
         </div>
       </footer>

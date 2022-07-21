@@ -1,8 +1,30 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import ButtonMailto from './ButtonMail';
+import useWindowDimensions from './DeviceWidth';
 
 function Appbar() {
+  const { height, width } = useWindowDimensions();
+  const res = width > 450 ? (
+    <a href="/whatsapp" style={{ color: 'white' }}>
+      <i
+        className="fa fa-whatsapp text-theme-colored"
+      />
+      {' '}
+      9983340133
+      {' '}
+    </a>
+  ) : (
+    <a
+      href="https://wa.me/+919983340133"
+      className="whatsapp_float"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i className="fa fa-whatsapp whatsapp-icon"> &nbsp; 9983340133</i>
+    </a>
+  );
+  console.log(height);
   return (
     <div className="header-top bg-black-333 sm-text-center border-top-theme-color-3px p-0">
       <div className="container">
@@ -12,15 +34,7 @@ function Appbar() {
               <ul className="list-inline pull-left flip sm-pull-none xs-text-center text-white mt-5">
                 <li className="m-0 pl-10 pr-10">
                   {' '}
-                  <a href="/whatsapp" style={{ color: 'white' }}>
-                    <i
-                      className="fa fa-whatsapp text-theme-colored"
-                    />
-                    {' '}
-                    9983340133
-                    {' '}
-                  </a>
-
+                  {res}
                 </li>
                 <li className="m-0 pl-10 pr-10">
                   <ButtonMailto label="Write us an E-Mail" mailto="mailto:Aarambh@grrassolutions.in">
