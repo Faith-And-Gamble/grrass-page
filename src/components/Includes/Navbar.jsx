@@ -18,6 +18,7 @@ function Navbar() {
               <li><Link to="/faq">FAQ</Link></li>
               <li><Link to="/hire-form-us">Hire From Us</Link></li>
               <li><Link to="/register">Contact us</Link></li>
+              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
 
             </ul>
           </nav>

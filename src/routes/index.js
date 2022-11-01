@@ -9,6 +9,7 @@ import ISA from '../pages/ISA';
 import Aboutus from '../pages/Aboutus (1)';
 import Hire from '../pages/hire';
 import WhatsApp from '../components/Includes/whatsapp';
+import PrivacyPolicy from '../pages/PrivacyPolicy';
 
 function Routing() {
   return (
@@ -23,6 +24,7 @@ function Routing() {
       <Route path="/about" element={<Aboutus />} />
       <Route path="/register" element={<Form />} />
       <Route path="/whatsapp" element={<WhatsApp />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
     </Routes>
 

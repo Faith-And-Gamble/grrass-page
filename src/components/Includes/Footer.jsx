@@ -93,6 +93,9 @@ function Footer() {
                   <li>
                     <a href="/faq">FAQ</a>
                   </li>
+                  <li>
+                    <a href="/privacy-policy">Privacy Policy</a>
+                  </li>
                 </ul>
               </div>
             </div>
